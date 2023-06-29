@@ -1,0 +1,449 @@
+﻿ 
+   
+
+
+<!-- breadcumnd banner Here -->
+<section class="breadcumnd__banner">
+    <!--Container-->
+    <div class="container">
+        <div class="breadcumnd__wrapper">
+            <h2 class="bread__title">
+                Train - Confirm Details
+            </h2>
+            <ul class="breadcumnd__link">
+                <li>
+                    <a ng-click="changeActiveTab(webPages.Home)">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <i class="material-symbols-outlined">
+                        chevron_right
+                    </i>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Booking
+                    </a>
+                </li>
+                <li>
+                    <i class="material-symbols-outlined">
+                        chevron_right
+                    </i>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Train
+                    </a>
+                </li>
+                <li>
+                    <i class="material-symbols-outlined">
+                        chevron_right
+                    </i>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Lisst Page
+                    </a>
+                </li>
+                <li>
+                    <i class="material-symbols-outlined">
+                        chevron_right
+                    </i>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Booking System
+                    </a>
+                </li>
+                <li>
+                    <i class="material-symbols-outlined">
+                        chevron_right
+                    </i>
+                </li>
+                <li>
+                    Confirm Details
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Container-->
+</section>
+<!-- breadcumnd banner End -->
+<!-- hotel list here -->
+<section class="flight__onewaysectio pt__60 pb__60">
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-xxl-9 col-xl-9 col-lg-9">
+                <div class="flight__oneway__confirmdetails shadow bgwhite">
+                    <h3 class="dtext mb__40 xs-28">
+                        Confirm Trains Details
+                    </h3>
+                    <div class="flight__oneway__item2 bdash pb__30 mb__30">
+                        <div class="flight__oneway__inner2">
+                            <div class="table__two">
+                                <div class="tabletwo__body d-flex justify-content-between w-100">
+                                    <div class="w-100">
+                                        <ul class="table__conponent align-items-center tablebg d-flex justify-content-between">
+                                            <li>
+                                                <span class="delta mb__10 d-block">
+                                                    #{{chosenTrainForBooking.number}}
+                                                </span>
+                                                <span class="fz-16 fw-400 lato">
+                                                    {{chosenTrainForBooking.from}}-{{chosenTrainForBooking.to}} Express
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="fz-18 mb__10 d-block fw-600 lato dtext">
+                                                    {{chosenTrainForBooking.departure}} AM
+                                                </span>
+                                                <span class="fz-16 fw-400 lato">
+                                                    {{chosenTrainForBooking.from}}
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="fz-18 mb__10 d-block fw-600 lato dtext">
+                                                    2h 10m
+                                                </span>
+                                                <span class="fz-16 fw-400 lato">
+                                                    (13+Stops )
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span class="fz-18 mb__10 d-block fw-600 lato dtext">
+                                                    {{chosenTrainForBooking.arrive}} PM
+                                                </span>
+                                                <span class="fz-16 fw-400 lato">
+                                                    {{chosenTrainForBooking.to}}
+                                                </span>
+                                            </li>
+                                           @* <li>
+                                                <span class="fz-18 mb__10 d-block fw-600 lato dtext">
+                                                    Seat No: 1
+                                                </span>
+                                                <span class="fz-16 fw-400 lato">
+                                                    Coach : A
+                                                </span>
+                                            </li>*@
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  @*  <div class="travel__protection">
+                        <div class="d-flex justify-content-between mb__10 align-items-center ">
+                            <h5 class="dtext fw-700">
+                                Baggage Information
+                            </h5>
+                        </div>
+                        <div class="d-flex flex-wrap mb__30 align-items-center justify-content-between">
+                            <span class="fz-18 fw-400 lato dtext">
+                                Travel New York to Dubai
+                            </span>
+                            <span class="fz-18 fw-400 dtext lato">
+                                Coach: A
+                            </span>
+                        </div>
+                    </div>*@
+
+
+                    <div class="booking__landing__body">
+                        <div class="dating__body">
+                            <div class="dating__body__box dating__flight mb__30">
+                                <form class="row justify-content-center g-3" name="registerTicketForm" id="registerTicketForm" novalidate>
+
+                                    <div class="travel__validateText mt-4 mb__30">
+                                        <h5 class="dtextValidate mb__15">
+                                            *მოხდა შეცდომა. ყველა ველი აუცილებლად უნდა შეივსოს
+                                        </h5>
+                                    </div>
+
+                                    <div class="travel__detailstext mt-4 mb__30">
+                                        <h5 class="dtext mb__15">
+                                            საკონტაქტო ინფორმაცია
+                                        </h5>
+                                    </div>
+
+                                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="dating__item dating__hidden">
+                                            <input type="email" placeholder="იმეილი" ng-model="ticketRegisterData.email" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="dating__item dating__hidden">
+                                            <input type="text" placeholder="ტელეფონის ნომერი" ng-model="ticketRegisterData.phoneNumber" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="travel__detailstext mt-4 mb__30">
+                                        <h5 class="dtext mb__15">
+                                           მგზავრების ინფორმაცია
+                                        </h5>
+                                    </div>
+
+                                    <div class="ticketPersons col-12" ng-repeat="person in ticketRegisterData.people">
+                                        <h5 class="dtext mb__15 lato">
+                                            მგზავრი {{$index+1}}
+                                       </h5>
+
+                                        <div class="person col-12 d-flex">
+                                            <div class="col-xxl-2 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="dating__item dating__hidden">
+                                                    <button class="cmn__btn" style="padding-top: 0px; padding-bottom:0px;min-height: 50px;">
+                                                        <span>ადგილი: <span class="seatNumber">{{personsMockData[$index].seatNumber}}</span></span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="dating__item dating__hidden">
+                                                    <input type="text" placeholder="სახელი" ng-model="person.name" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="dating__item dating__hidden">
+                                                    <input type="text" placeholder="გვარი" ng-model="person.surname" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="dating__item dating__hidden">
+                                                    <input type="text" placeholder="პირადი ნომერი" ng-model="person.idNumber" required maxlength="11" minlength="11">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xxl-2 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div class="dating__item dating__hidden">
+                                                    <button class="cmn__btn" style="padding-top: 0px; padding-bottom:0px;min-height: 50px;" ng-click="selectVagon($index)">
+                                                        <span type="button" data-bs-toggle="modal" data-bs-target="#trainModal"> ადგილის არჩევა</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                       </div>
+                                   </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bdash pb__30">
+                        <div class="row g-3">
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
+                                <div class="baggage__info d-flex gap-3">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <img src="assets/img/svg/pbag1.svg" alt="bag">
+                                    </div>
+                                    <div class="content">
+                                        <span class="fz-18 d-block mb-1 fw-600 lato ">
+                                            Personal Item
+                                        </span>
+                                        <span class="fz-16 d-block mb__10 fw-400 lato dtext">
+                                            Purse, small backpack, briefcase
+                                        </span>
+                                        <span class="d-flex lato fz-16 fw-400 dtext align-items-center gap-2">
+                                            <span class="sicon">
+                                                <img src="assets/img/svg/over-check.svg" alt="check-svg">
+                                            </span> Included
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
+                                <div class="baggage__info d-flex gap-3">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <img src="assets/img/svg/pbag2.svg" alt="bag">
+                                    </div>
+                                    <div class="content">
+                                        <span class="fz-18 d-block mb-1 fw-600 lato ">
+                                            Carry-on bag
+                                        </span>
+                                        <span class="fz-16 d-block mb__10 fw-400 lato dtext">
+                                            Fits in overhead bin or under the seat
+                                        </span>
+                                        <span class="d-flex lato fz-16 fw-400 dtext align-items-center gap-2">
+                                            <span class="sicon">
+                                                <img src="assets/img/svg/over-check.svg" alt="check-svg">
+                                            </span> Included
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6">
+                                <div class="baggage__info d-flex gap-3">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <img src="assets/img/svg/pbag3.svg" alt="bag">
+                                    </div>
+                                    <div class="content">
+                                        <span class="fz-18 d-block mb-1 fw-600 lato ">
+                                            Checked Bags
+                                        </span>
+                                        <span class="fz-16 d-block mb__10 fw-400 lato dtext">
+                                            Larges Bag Purse, small backpack
+                                        </span>
+                                        <span class="d-flex lato fz-16 fw-400 dtext align-items-center gap-2">
+                                            <span class="sicon">
+                                                <img src="assets/img/svg/cross.svg" alt="check-svg">
+                                            </span> Not Included
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3">
+                <div class="hotel__confirm__invocie">
+                    <h5 class="fw-600 gratext lato mb__20 text-center">
+                        Invoice Details
+                    </h5>
+                    <div class="ticket__timeout mb__24">
+                        <p class="fz-16 fw-400 mb__10 lato dtext">
+                            Book now before tickets run out!
+                        </p>
+                        <div class="d-flex gap-3 align-items-center">
+                            <div class="icon d-flex align-items-center justify-content-center">
+                                <img src="assets/img/svg/clocks.svg" alt="clock">
+                            </div>
+                            <div class="content">
+                                <div class="d-flex align-items-center gap-2">
+                                    <span class="fz-24 lato fw-400 gratext">
+                                        29
+                                    </span>
+                                    <span class="fz-24 lato fw-400 gratext">
+                                        :
+                                    </span>
+                                    <span class="fz-24 lato fw-400 gratext">
+                                        01
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="fz-16 fw-400 dtext">
+                                        Min
+                                    </span>
+                                    <span class="fz-16 fw-400 dtext">
+                                        Sec
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex product__total pb__15 mb__15 align-items-center justify-content-between">
+                        <span class="fz-18 fw-600 lato dtext d-block">
+                            ადგილი
+                        </span>
+                        <span class="fz-18 fw-600 lato dtext d-block">
+                            ფასი
+                        </span>
+                    </div>
+                    <ul class="price__cost price__costtwo mb__15">
+                        <li class="d-flex align-items-center justify-content-between" ng-repeat="seat in previouslyClickedSeat">
+                            <span class="fz-18 fw-400 lato dtext">
+                                {{seat.number}}
+                            </span>
+                            <span class="fz-18 fw-400 lato dtext">
+                                {{seat.price}}₾
+                            </span>
+                        </li>
+
+                        <li class="d-flex align-items-center justify-content-between">
+                            <span class="fz-18 fw-400 lato dtext">
+                                სულ: 
+                            </span>
+                            <span class="fz-18 fw-400 lato dtext">
+                                {{ticketPriceSum}}.00₾
+                            </span>
+                        </li>
+                    </ul>
+
+                    <div class="have__condition mt__30 mb__30">
+                        <div class="radio__left d-flex align-items-center gap-2">
+                            <input class="form-check-input" type="checkbox" id="proper5" checked>
+                            <label class="form-check-label" for="proper5">
+                                <span class="fz-16 lato fw-400 dtext">
+                                    წავიკითხე და ვეთანხმები წესებს
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="payment text-center mb__30">
+                        <button ng-click="changeActiveTab(webPages.PaymentDetails); registerTicket(ticketRegisterData);" class="cmn__btn" ng-disabled="registerTicketForm.$invalid">
+                            <span>
+                               ბილეთის რეგისტრაცია
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- hotel list End -->
+<!-- Modal -->
+<div class="modal fade" id="trainModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <section class="personal__information pb__60">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-xxl-12 col-xl-12 col-lg-12">
+                                <div class="personal__infotabs">
+                                    <ul class="nav nav-tabs" id="myTabinfor" role="tablist">
+                                        <li class="nav-item" role="presentation" ng-repeat="vagon in chosenTrainForBooking.vagons" ng-click="changeVagonToChoose(vagon)">
+                                            <button class="nav-link justify-content-center" data-bs-toggle="tab"
+                                                    data-bs-target="#class0" type="button" role="tab"
+                                                    aria-controls="class0" aria-selected="true">
+                                                <span>
+                                                    {{vagon.name}}
+                                                </span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xxl-8 col-xl-8 col-lg-8" style="margin-top: 30px;">
+                                <div class="personal__infobody">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="class0" role="tabpanel">
+                                            <div class="train">
+                                                <!--   <div class="exit exit--front train-body"></div> -->
+                                                <div class="exit front train-body">
+                                                    <div>Toilet</div>
+                                                    <div></div>
+                                                    <div></div>
+                                                </div>
+
+                                                <ol class="wagon train-body">
+                                                    <li class="row row--1 flex-wrap">
+                                                        <ol class="seats">
+                                                            <li class="seat" ng-repeat="seat in chosenVagon.seats | orderBy:customSort" ng-click="selectSeatForPerson(seat, $index)">
+                                                                <label ng-class="{'reserved': seat.isOccupied}" for="{{seat.number}}">{{seat.number}}</label>
+                                                            </li>
+                                                        </ol>
+                                                    </li>
+                                                </ol>
+
+                                                <div class="exit back train-body">
+                                                    <div>Toilet</div>
+                                                    <div></div>
+                                                    <div></div>
+                                                </div>
+                                                <!--   <div class="exit exit--back train-body"></div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            </div>
+        </div>
+    </div>
+
+

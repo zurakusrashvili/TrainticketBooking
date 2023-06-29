@@ -1,0 +1,59 @@
+URL: https://tkt.ge/api/v2/gr/orders/details?orderKey=CaQP0WjbLTslpUb4tV_YWPRBs2KCZFlt&api_key=7d8d34d1-e9af-4897-9f0f-5c36c179be77
+
+
+{
+    "Ok": false,
+    "Success": true,
+    "Errors": [],
+    "ErrorCode": 0,
+    "Data": {
+        "OutboundOrderDetails": {
+            "IsTwoStorey": true,
+            "StationFromName": "თბილისი-სამგზ",
+            "StationToName": "ბათუმი ( სამგზ)",
+            "StationFromNumber": 56014,
+            "StationToNumber": 57151,
+            "LeavingDateTime": "2023-06-16T00:35:00",
+            "EnterDateTime": "2023-06-16T05:47:00",
+            "TrainName": null,
+            "SelectedSeats": [
+                {
+                    "CarriageNumber": 4,
+                    "SelectedSeatId": 5101719,
+                    "PlaceNumber": "62",
+                    "CarriageClassName": "მოდერნიზებული",
+                    "IsChild": false,
+                    "Price": 76.00,
+                    "OriginalPrice": 76.00,
+                    "TrainNumber": 812,
+                    "CarriageRankName": "მოდერნიზებული",
+                    "PassengerInfo": {
+                        "SeatId": 0,
+                        "FirstName": null,
+                        "LastName": null,
+                        "PersonalNumber": null,
+                        "AdditionalServiceId": 0
+                    },
+                    "TicketIdentifier": "",
+                    "CarriageRankId": 2,
+                    "CarriageClassId": 16,
+                    "ReturnedPlaceTitle": null,
+                    "TicketId": null,
+                    "TicketStatus": 2,
+                    "IsShared": false,
+                    "CommentOnTicket": "",
+                    "GenerationDate": "0001-01-01T00:00:00",
+                    "IdentifierRepresentationType": 0,
+                    "IdentifierImage": null,
+                    "GrTicketStatus": 0
+                }
+            ]
+        },
+        "ReturnOrderDetails": null,
+        "LeftSeconds": 299,
+        "OrderKey": "CaQP0WjbLTslpUb4tV_YWPRBs2KCZFlt",
+        "GenerationDate": null,
+        "TotalAmount": 0.00,
+        "TKTClubDiscount": 0.0
+    }
+}

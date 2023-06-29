@@ -1,0 +1,156 @@
+URL: https://tkt.ge/api/v2/gr/ticketTypes?leavingDate=2023-06-16T00%3A00%3A00.000Z&fromStationNumber=56014&toStationNumber=57151&isForStationsTable=&isSSm=false&api_key=7d8d34d1-e9af-4897-9f0f-5c36c179be77
+
+{
+    "Ok": false,
+    "Success": true,
+    "Errors": [],
+    "ErrorCode": 0,
+    "Data": {
+        "Places": [
+            {
+                "Train": {
+                    "TrainId": "60948f52-4641-4b6a-be90-a99456879c54",
+                    "TrainNumber": 812,
+                    "Name": "თბილისი (სამგ)-ბათუმი(სამგ)",
+                    "IsTwoStorey": true,
+                    "Type": null,
+                    "SvgMapUrl": "https://cdn.tkt.ge/svgmaps/GRS-06-11_v5.svg"
+                },
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "I კლასი",
+                    "CarriageName": "I კლასი"
+                },
+                "LeavingDateTime": "2023-06-16T00:35:00",
+                "EnteringDateTime": "2023-06-16T05:47:00",
+                "MoneyAmount": 75.00,
+                "ReturnedPlaceTitle": "I კლასი",
+                "CarriagePhotoUrl": null
+            },
+            {
+                "Train": {
+                    "TrainId": "60948f52-4641-4b6a-be90-a99456879c54",
+                    "TrainNumber": 812,
+                    "Name": "თბილისი (სამგ)-ბათუმი(სამგ)",
+                    "IsTwoStorey": true,
+                    "Type": null,
+                    "SvgMapUrl": "https://cdn.tkt.ge/svgmaps/GRS-06-11_v5.svg"
+                },
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 32,
+                    "Name": "II კლასი",
+                    "CarriageName": "II კლასი"
+                },
+                "LeavingDateTime": "2023-06-16T00:35:00",
+                "EnteringDateTime": "2023-06-16T05:47:00",
+                "MoneyAmount": 35.00,
+                "ReturnedPlaceTitle": "II კლასი",
+                "CarriagePhotoUrl": null
+            },
+            {
+                "Train": {
+                    "TrainId": "60948f52-4641-4b6a-be90-a99456879c54",
+                    "TrainNumber": 812,
+                    "Name": "თბილისი (სამგ)-ბათუმი(სამგ)",
+                    "IsTwoStorey": true,
+                    "Type": null,
+                    "SvgMapUrl": "https://cdn.tkt.ge/svgmaps/GRS-06-11_v5.svg"
+                },
+                "Rank": {
+                    "CarriageRankId": 4,
+                    "Name": "ბიზნესკლასი"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "ბიზნესკლასი",
+                    "CarriageName": "ბიზნესკლასი"
+                },
+                "LeavingDateTime": "2023-06-16T00:35:00",
+                "EnteringDateTime": "2023-06-16T05:47:00",
+                "MoneyAmount": 125.00,
+                "ReturnedPlaceTitle": "ბიზნესკლასი",
+                "CarriagePhotoUrl": null
+            },
+            {
+                "Train": {
+                    "TrainId": "66ed1276-b855-450c-8f89-b59a29cc79f7",
+                    "TrainNumber": 802,
+                    "Name": "თბილისი(სამგ)-ბათუმი(სამგ)",
+                    "IsTwoStorey": true,
+                    "Type": null,
+                    "SvgMapUrl": "https://cdn.tkt.ge/svgmaps/GRS-06-11_v5.svg"
+                },
+                "Rank": {
+                    "CarriageRankId": 4,
+                    "Name": "ბიზნესკლასი"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "ბიზნესკლასი",
+                    "CarriageName": "ბიზნესკლასი"
+                },
+                "LeavingDateTime": "2023-06-16T08:00:00",
+                "EnteringDateTime": "2023-06-16T13:12:00",
+                "MoneyAmount": 125.00,
+                "ReturnedPlaceTitle": "ბიზნესკლასი",
+                "CarriagePhotoUrl": "https://static.tkt.ge/img/tb_ba_shtadleri_bus.JPG"
+            },
+            {
+                "Train": {
+                    "TrainId": "4d6880e9-b58c-4fbf-8b9b-ea677f94da91",
+                    "TrainNumber": 808,
+                    "Name": "თბილისი (სამგ)-ბათუმი(სამგ)",
+                    "IsTwoStorey": true,
+                    "Type": null,
+                    "SvgMapUrl": "https://cdn.tkt.ge/svgmaps/GRS-06-11_v5.svg"
+                },
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "I კლასი",
+                    "CarriageName": "I კლასი"
+                },
+                "LeavingDateTime": "2023-06-16T10:25:00",
+                "EnteringDateTime": "2023-06-16T15:38:00",
+                "MoneyAmount": 75.00,
+                "ReturnedPlaceTitle": "I კლასი",
+                "CarriagePhotoUrl": "https://static.tkt.ge/img/tb_ba_shtadleri_1_klasi.JPG"
+            },
+            {
+                "Train": {
+                    "TrainId": "4d6880e9-b58c-4fbf-8b9b-ea677f94da91",
+                    "TrainNumber": 808,
+                    "Name": "თბილისი (სამგ)-ბათუმი(სამგ)",
+                    "IsTwoStorey": true,
+                    "Type": null,
+                    "SvgMapUrl": "https://cdn.tkt.ge/svgmaps/GRS-06-11_v5.svg"
+                },
+                "Rank": {
+                    "CarriageRankId": 4,
+                    "Name": "ბიზნესკლასი"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "ბიზნესკლასი",
+                    "CarriageName": "ბიზნესკლასი"
+                },
+                "LeavingDateTime": "2023-06-16T10:25:00",
+                "EnteringDateTime": "2023-06-16T15:38:00",
+                "MoneyAmount": 125.00,
+                "ReturnedPlaceTitle": "ბიზნესკლასი",
+                "CarriagePhotoUrl": "https://static.tkt.ge/img/tb_ba_shtadleri_bus.JPG"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Geekster PC\Desktop\Reest\RestaurantAPI\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-05-11T11:25:26.8803112Z;True|2023-05-11T15:16:21.6532083+04:00;True|2023-04-02T01:45:35.3786729+04:00;True|2023-04-02T01:43:49.5002205+04:00;True|2023-04-02T01:41:30.3641487+04:00;True|2023-04-02T01:36:53.1777156+04:00;True|2023-04-02T01:29:08.3833835+04:00;True|2023-04-02T01:26:49.2920137+04:00;True|2023-04-02T01:22:51.6391097+04:00;True|2023-04-02T01:12:02.9292966+04:00;True|2023-03-29T00:47:07.0902758+04:00;True|2023-03-29T00:43:54.0922176+04:00;True|2023-03-29T00:32:56.7330815+04:00;False|2023-03-29T00:31:55.2997161+04:00;True|2023-03-27T16:56:38.6428922+04:00;True|2023-03-27T11:02:11.2304394+04:00;True|2023-03-27T10:59:57.6464956+04:00;False|2023-03-27T10:59:28.8970745+04:00;True|2023-03-27T10:42:06.9661489+04:00;True|2023-03-27T10:24:38.8659914+04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnectionString">
+      <Value>Server=STEPPROJECT%3bDatabase=RestaurantApi%3bUser ID=testrest%3bPassword=Mimino456%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="RestaurantAPI.Data.RestaurantOrderDbContext">
+      <Value>Server=STEPPROJECT%3bDatabase=RestaurantApi%3bUser ID=testrest%3bPassword=Mimino456%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,261 @@
+"Stations": [
+            {
+                "StationNumber": 56014,
+                "Name": "თბილისი-სამგზ",
+
+            },
+            {
+                "StationNumber": 57151,
+                "Name": "ბათუმი ( სამგზ)",
+
+            },
+            {
+                "StationNumber": 57290,
+                "Name": "ზუგდიდი",
+
+            },
+            {
+                "StationNumber": 57210,
+                "Name": "ფოთი",
+
+            },
+            {
+                "StationNumber": 57100,
+                "Name": "ოზურგეთი",
+
+            },
+            {
+                "StationNumber": 57530,
+                "Name": "ქუთაისი I",
+
+            },
+            {
+                "StationNumber": 57510,
+                "Name": "რიონი",
+
+            },
+            {
+                "StationNumber": 57450,
+                "Name": "ქუთაისის საერთაშორისო აეროპორტი",
+
+            },
+            {
+                "StationNumber": 57190,
+                "Name": "სენაკი",
+
+            },
+            {
+                "StationNumber": 57000,
+                "Name": "სამტრედია   I",
+
+            },
+            {
+                "StationNumber": 57070,
+                "Name": "ურეკი",
+
+            },
+            {
+                "StationNumber": 57120,
+                "Name": "ქობულეთი",
+
+            },
+            {
+                "StationNumber": 57170,
+                "Name": "აბაშა",
+
+            },
+            {
+                "StationNumber": 57600,
+                "Name": "ზესტაფონი",
+
+            },
+            {
+                "StationNumber": 57040,
+                "Name": "ლანჩხუთი",
+
+            },
+            {
+                "StationNumber": 57680,
+                "Name": "ხარაგაული",
+
+            },
+            {
+                "StationNumber": 57900,
+                "Name": "გორი",
+
+            },
+            {
+                "StationNumber": 57720,
+                "Name": "ხაშური",
+
+            },
+            {
+                "StationNumber": 57250,
+                "Name": "ხობი",
+
+            },
+            {
+                "StationNumber": 57700,
+                "Name": "მოლითი",
+
+            },
+            {
+                "StationNumber": 57690,
+                "Name": "მარელისი",
+
+            },
+            {
+                "StationNumber": 57080,
+                "Name": "ნატანები",
+
+            },
+            {
+                "StationNumber": 57060,
+                "Name": "სუფსა",
+
+            },
+            {
+                "StationNumber": 57194,
+                "Name": "ქვალონი",
+
+            },
+            {
+                "StationNumber": 57050,
+                "Name": "ჯუმათი",
+
+            },
+            {
+                "StationNumber": 56040,
+                "Name": "მცხეთა",
+
+            },
+            {
+                "StationNumber": 57252,
+                "Name": "ხეთა",
+
+            },
+            {
+                "StationNumber": 56021,
+                "Name": "დიდუბე",
+
+            },
+            {
+                "StationNumber": 57202,
+                "Name": "ჭალადიდი",
+
+            },
+            {
+                "StationNumber": 56080,
+                "Name": "კასპი",
+
+            },
+            {
+                "StationNumber": 57090,
+                "Name": "მერია",
+
+            },
+            {
+                "StationNumber": 57702,
+                "Name": "წიფა",
+
+            },
+            {
+                "StationNumber": 57880,
+                "Name": "ქარელი",
+
+            },
+            {
+                "StationNumber": 57580,
+                "Name": "სვირი",
+
+            },
+            {
+                "StationNumber": 57020,
+                "Name": "საჯავახო",
+
+            },
+            {
+                "StationNumber": 57280,
+                "Name": "ინგირი",
+
+            },
+            {
+                "StationNumber": 57031,
+                "Name": "შუხუთი",
+
+            },
+            {
+                "StationNumber": 57091,
+                "Name": "ბაქანი 11 კმ",
+
+            },
+            {
+                "StationNumber": 57093,
+                "Name": "ბაქანი 16 კმ",
+
+            },
+            {
+                "StationNumber": 57180,
+                "Name": "აგურ-ქარხანა (ასაქ.)",
+
+            },
+            {
+                "StationNumber": 57692,
+                "Name": "ბაქანი 2359 კმ",
+
+            },
+            {
+                "StationNumber": 57092,
+                "Name": "კახური გაჩ",
+
+            },
+            {
+                "StationNumber": 57133,
+                "Name": "მახინჯაური",
+
+            },
+            {
+                "StationNumber": 57460,
+                "Name": "მუხიანი",
+
+            },
+            {
+                "StationNumber": 57132,
+                "Name": "მწვანე კონცხი",
+
+            },
+            {
+                "StationNumber": 57030,
+                "Name": "ნიგოითი",
+
+            },
+            {
+                "StationNumber": 57110,
+                "Name": "ოჩხამური",
+
+            },
+            {
+                "StationNumber": 56270,
+                "Name": "რუსთავი-სატვ",
+
+            },
+            {
+                "StationNumber": 57160,
+                "Name": "ქოლობანი (ასაქ.)",
+
+            },
+            {
+                "StationNumber": 57130,
+                "Name": "ჩაქვი",
+
+            },
+            {
+                "StationNumber": 57122,
+                "Name": "ციხის-ძირი  გაჩ",
+
+            },
+            {
+                "StationNumber": 57022,
+                "Name": "ჯაპანა (ასაქ.)",
+
+            }

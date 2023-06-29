@@ -1,0 +1,637 @@
+"Data": {
+        "TrainClassId": 1024,
+        "TrainId": "60948f52-4641-4b6a-be90-a99456879c54",
+        "TrainNumber": 812,
+        "FreePlaces": [
+            {
+                "PlaceId": 2329,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 6,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s6"
+            },
+            {
+                "PlaceId": 2334,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 11,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s11"
+            },
+            {
+                "PlaceId": 2335,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 12,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s12"
+            },
+            {
+                "PlaceId": 2336,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 13,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s13"
+            },
+            {
+                "PlaceId": 2337,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 14,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s14"
+            },
+            {
+                "PlaceId": 2338,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 15,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s15"
+            },
+            {
+                "PlaceId": 2344,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 21,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s21"
+            },
+            {
+                "PlaceId": 2345,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 22,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s22"
+            },
+            {
+                "PlaceId": 2346,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 23,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s23"
+            },
+            {
+                "PlaceId": 2347,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 24,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s24"
+            },
+            {
+                "PlaceId": 2348,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 25,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s25"
+            },
+            {
+                "PlaceId": 2349,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 26,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s26"
+            },
+            {
+                "PlaceId": 2351,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 28,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s28"
+            },
+            {
+                "PlaceId": 2352,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 29,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s29"
+            },
+            {
+                "PlaceId": 2353,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 30,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s30"
+            },
+            {
+                "PlaceId": 2354,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 31,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s31"
+            },
+            {
+                "PlaceId": 2355,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 32,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s32"
+            },
+            {
+                "PlaceId": 2357,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 34,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s34"
+            },
+            {
+                "PlaceId": 2358,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 35,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s35"
+            },
+            {
+                "PlaceId": 2359,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 36,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s36"
+            },
+            {
+                "PlaceId": 2360,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 37,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s37"
+            },
+            {
+                "PlaceId": 2361,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 38,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s38"
+            },
+            {
+                "PlaceId": 2362,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 39,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s39"
+            },
+            {
+                "PlaceId": 2363,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 40,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s40"
+            },
+            {
+                "PlaceId": 2364,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 41,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s41"
+            },
+            {
+                "PlaceId": 2365,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 42,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s42"
+            },
+            {
+                "PlaceId": 2366,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 43,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s43"
+            },
+            {
+                "PlaceId": 2367,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 44,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s44"
+            },
+            {
+                "PlaceId": 2368,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 45,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s45"
+            },
+            {
+                "PlaceId": 2369,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 46,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s46"
+            },
+            {
+                "PlaceId": 2370,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 47,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s47"
+            },
+            {
+                "PlaceId": 2371,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 48,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s48"
+            },
+            {
+                "PlaceId": 2372,
+                "PlaceTypeId": 256,
+                "PlaceNumber": 49,
+                "PlaceTypeName": "I სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s49"
+            },
+            {
+                "PlaceId": 2385,
+                "PlaceTypeId": 512,
+                "PlaceNumber": 62,
+                "PlaceTypeName": "II სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s62"
+            },
+            {
+                "PlaceId": 2386,
+                "PlaceTypeId": 512,
+                "PlaceNumber": 63,
+                "PlaceTypeName": "II სართული",
+                "Rank": {
+                    "CarriageRankId": 2,
+                    "Name": "მოდერნიზებული"
+                },
+                "CarriageClass": {
+                    "CarriageClassId": 16,
+                    "Name": "მოდერნიზებული",
+                    "CarriageName": "მოდერნიზებული"
+                },
+                "WagonNumber": 4,
+                "WagonId": "e5c68ec2-6390-4297-8ce8-fb74cd27686b",
+                "SchemaSeatId": "v4-s63"
+            }
+        ]
+    }

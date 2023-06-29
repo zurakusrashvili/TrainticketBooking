@@ -1,0 +1,1 @@
+1. Get Places: https://tkt.ge/railway/search?leaving-place=56014&entering-place=57151&leave-date=16.06.2023&return-date=17.06.2023&passenger-count=3

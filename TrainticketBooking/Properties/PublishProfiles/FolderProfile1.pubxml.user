@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Geekster PC\Desktop\STEPPROJECTS\Reest\HotelBooking\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-06-15T07:46:01.0240935Z;True|2023-06-11T00:04:35.4135096+04:00;True|2023-06-06T15:48:58.8932906+04:00;True|2023-06-06T15:42:59.1424004+04:00;True|2023-06-06T15:17:56.1578461+04:00;True|2023-06-06T15:14:16.6258552+04:00;True|2023-06-06T15:08:08.6026503+04:00;True|2023-06-06T15:04:33.5054207+04:00;True|2023-06-03T17:52:32.6774668+04:00;True|2023-06-03T17:05:35.0554735+04:00;True|2023-06-03T17:05:15.0393389+04:00;True|2023-06-03T17:03:30.7766232+04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="HotelBooking.Data.HotelBookingDbContext">
+      <Value>Server=STEPPROJECT%3bDatabase=HotelBookingDB%3bUser ID=testrest%3bPassword=Mimino456%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

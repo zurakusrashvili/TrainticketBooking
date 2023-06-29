@@ -1,0 +1,168 @@
+﻿   <!-- order here -->
+<section class="order__section successful__section pb__60">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xxl-12 col-xl-12 col-lg-12">
+
+                <form name="checkTicketForm" novalidate>
+                    <div class="col-md-8">
+                        <div class="input-single">
+                            <label for="userCardNumber">ბილეთის ნომერი</label>
+                            <input type="text" name="number" id="userCardNumber" required ng-model="TicketIdToBeChecked">
+                        </div>
+                    </div>
+                    <div class="text-center mt-4 col-md-4">
+                        <button ng-click="checkTicketStatus(TicketIdToBeChecked)" class="cmn__btn" ng-disabled="checkTicketForm.$invalid">
+                            <span>
+                                შემოწმება
+                            </span>
+                        </button>
+                    </div>
+                </form>
+
+
+                <div class="payment__success__inner" ng-show="showTicket">
+                  
+                    <div class="payment__success__header">
+                        <div class="icon">
+                            <i class="material-symbols-outlined">
+                                done
+                            </i>
+                        </div>
+                        <p>ბილეთის საფასური გადახდილია, იხილეთ ბილეთი: </p>
+                    </div>
+                    <div class="payment__success__body">
+                        <div class="tm_container" style="margin-top: 100px;">
+                            <div class="tm_invoice_wrap">
+                                <div class="tm_invoice tm_style1" id="tm_download_section_ticket">
+                                    <div class="tm_invoice_in">
+                                        <div class="tm_invoice_head tm_align_center tm_mb20">
+                                            <div class="tm_invoice_left">
+                                                <p class="tm_m0">
+                                                    <b class="tm_primary_color">Step Railway</b>
+                                                </p>
+                                            </div>
+                                            <div class="tm_invoice_right tm_text_right">
+                                                <div class="tm_logo tm_size2"><img src="~/assets/img/stepLogo.jpg" alt="Logo"></div>
+                                            </div>
+                                        </div>
+                                        <div class="tm_invoice_info tm_mb30">
+                                            <div class="tm_invoice_info_list">
+                                                <p class="tm_invoice_number tm_m0">ბილეთის ნომერი: <b class="tm_primary_color">{{checkedTicket.id}}</b></p>
+                                                <p class="tm_invoice_date tm_m0">გაცემის თარიღი: <b class="tm_primary_color">{{currentDate}}</b></p>
+                                            </div>
+                                        </div>
+                                        <div class="tm_grid_row tm_col_3 tm_padd_15_20 tm_round_border tm_mb30">
+                                            <div class="tm_border_right tm_border_none_md">
+                                                გამგზავრება: <br>
+                                                <b class="tm_primary_color">{{checkedTicket.train.from}} {{checkedTicket.train.departure}}-ზე</b>
+                                            </div>
+                                            <div class="tm_border_right tm_border_none_md">
+                                                ჩასვლა: <br>
+                                                <b class="tm_primary_color">{{checkedTicket.train.to}} {{checkedTicket.train.arrive}}-ზე</b>
+                                            </div>
+                                            <div class="tm_border_none_md">
+                                                გასვლის თარიღი: <br>
+                                                <b class="tm_primary_color">{{checkedTicket.date}}</b>
+                                            </div>
+                                        </div>
+
+
+                                        <b class="tm_primary_color">საკონტაქტო ინფორმაცია: </b>
+                                        <div class="tm_table tm_style1" style="margin-top: 20px; margin-bottom: 50px">
+                                            <div class="tm_round_border">
+                                                <div class="tm_table_responsive">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="tm_border_top_0"><b class="tm_primary_color">იმეილი:</b> {{checkedTicket.email}}</td>
+                                                                <td class="tm_border_left tm_border_top_0"><b class="tm_primary_color">ტელ: ნომერი</b> {{checkedTicket.phone}}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <b class="tm_primary_color">მგზავრები</b>
+
+                                        <div class="tm_table tm_style1">
+                                            <div class="tm_round_border">
+                                                <div class="tm_table_responsive">
+                                                    <table>
+                                                        <tbody>
+                                                            <tr ng-repeat="person in checkedTicket.persons">
+                                                                <td class="tm_border_top_0"><b class="tm_primary_color">სახელი:</b> {{person.name}}</td>
+                                                                <td class="tm_border_left tm_border_top_0"><b class="tm_primary_color">გვარი:</b> {{person.surname}}</td>
+                                                                <td class="tm_border_left tm_border_top_0"><b class="tm_primary_color">პირადი ნომერი:</b> {{person.idNumber}}</td>
+                                                                <td class="tm_border_left tm_border_top_0"><b class="tm_primary_color">ადგილი:</b> {{CheckedSeatsFromTicket[$index].number}}</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="tm_invoice_footer">
+                                            <div class="tm_left_footer">
+                                            </div>
+                                            <div class="tm_right_footer">
+                                                <table>
+                                                    <tbody>
+                                                        <tr class="tm_border_top" style="border-bottom: 1px solid black; position:relative; top: 50px;">
+                                                            <td class="tm_width_3 tm_border_top_0 tm_bold tm_f18 tm_primary_color" style="font-size: 14px">სულ გადახდილი </td>
+                                                            <td class="tm_width_3 tm_border_top_0 tm_bold tm_f18 tm_primary_color tm_text_right">{{checkedTicket.ticketPrice}}</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="tm_note tm_text_center tm_m0_md" style="margin-top: 50px">
+                                            <p class="tm_m0">ინვოისი იქმნება კომპიუტერის მიერ და ვალიდურია ბეჭედის და ხელმოწერის გარეშე</p>
+                                            <p class="tm_m0" style="color: red">გადმოწერეთ ბილეთი ან შეინახეთ ბილეთის ნომერი ადგილზე წარსადგენად.</p>
+                                        </div>
+                                        <!-- .tm_note -->
+                                    </div>
+                                </div>
+                                <div class="tm_invoice_btns tm_hide_print">
+                                    <a href="javascript:window.print()" class="tm_invoice_btn tm_color1">
+                                        <span class="tm_btn_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M384 368h24a40.12 40.12 0 0040-40V168a40.12 40.12 0 00-40-40H104a40.12 40.12 0 00-40 40v160a40.12 40.12 0 0040 40h24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" /><rect x="128" y="240" width="256" height="208" rx="24.32" ry="24.32" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" /><path d="M384 128v-24a40.12 40.12 0 00-40-40H168a40.12 40.12 0 00-40 40v24" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32" /><circle cx="392" cy="184" r="24" fill='currentColor' /></svg>
+                                        </span>
+                                        <span class="tm_btn_text">Print</span>
+                                    </a>
+                                    <button id="tm_download_btn_ticket" class="tm_invoice_btn tm_color2">
+                                        <span class="tm_btn_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M320 336h76c55 0 100-21.21 100-75.6s-53-73.47-96-75.6C391.11 99.74 329 48 256 48c-69 0-113.44 45.79-128 91.2-60 5.7-112 35.88-112 98.4S70 336 136 336h56M192 400.1l64 63.9 64-63.9M256 224v224.03" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>
+                                        </span>
+                                        <span class="tm_btn_text">Download</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="cmn__btn" style="background: red;" ng-click="cancelTicket(checkedTicket.id)">
+                        
+                        <span>ბილეთის გაუქმება</span>
+                    </button>
+
+                </div>
+
+
+
+                <div class="payment__success__inner" ng-show="showNoTicket">
+                    <h3 class="text-center text-primary">ასეთი ბილეთი არ მოიძებნა, შეამოწმეთ ბილეთის ნომერი</h3>
+                </div>
+
+                <div class="payment__success__inner__" ng-show="showCanceledTicketText">
+                    <h3 class="text-center text-primary">ბილეთი წარმატებით გაუქმდა</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- order End -->

@@ -1,0 +1,143 @@
+﻿
+<!-- breadcumnd banner Here -->
+<section class="breadcumnd__banner">
+    <!--Container-->
+    <div class="container">
+        <div class="breadcumnd__wrapper">
+            <h2 class="bread__title">
+                Train - List Page
+            </h2>
+            <ul class="breadcumnd__link">
+                <li>
+                    <a ng-click="changeActiveTab(webPages.Home)">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <i class="material-symbols-outlined">
+                        chevron_right
+                    </i>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Booking
+                    </a>
+                </li>
+                <li>
+                    <i class="material-symbols-outlined">
+                        chevron_right
+                    </i>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        Train
+                    </a>
+                </li>
+                <li>
+                    <i class="material-symbols-outlined">
+                        chevron_right
+                    </i>
+                </li>
+                <li>
+                    List Page
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- breadcumnd banner End -->
+<!-- hotel list here -->
+<section class="flight__onewaysection pb__60">
+    <div class="container">
+        <div class="row justify-content-center">
+            
+            <div ng-show="departureDataToWorkWith.trains.length > 0">
+                <span class="dubai d-block text-center mb__20 dtext lato fw-400">
+                    American All Train List
+                </span>
+                <div class="flight__oneway__wrapper">
+                    <div class="flight__oneway__item mb__30">
+                        <div class="flight__oneway__inner">
+                            <table class="table vertical-middle">
+                               <thead>
+                                    <tr class="bgwhite circle__input">
+                                        <th class="fz-18 fw-500 lato dtext">Train Name</th>
+                                        <th class="fz-18 fw-500 lato dtext">Departure</th>
+                                        <th class="fz-18 fw-500 lato dtext">Duration</th>
+                                        <th class="fz-18 fw-500 lato dtext">Arrival</th>
+                                        <th class="fz-18 fw-500 lato dtext">Price</th>
+                                    </tr>
+                               </thead>
+                                <tbody class="align-middle" ng-repeat="train in departureDataToWorkWith.trains" style="border-bottom: 30px solid #fff;">
+                                    <tr >
+                                        <td>
+                                            <span class="delta mb__10 d-block">
+                                               #{{train.number}}
+                                            </span>
+                                            <span class="fz-16 fw-400 lato">
+                                                {{train.from}}-{{train.to}} Express
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="fz-18 mb__10 d-block fw-600 lato dtext">
+                                                {{train.departure}} AM
+                                            </span>
+                                            <span class="fz-16 fw-400 lato">
+                                                {{train.from}}
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="fz-18 mb__10 d-block fw-600 lato dtext">
+                                                8h 10m
+                                            </span>
+                                            <span class="fz-16 fw-400 lato">
+                                                12+stop
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="fz-18 mb__10 d-block fw-600 lato dtext">
+                                                {{train.arrive}} PM
+                                            </span>
+                                            <span class="fz-16 fw-400 lato">
+                                                {{train.to}}
+                                            </span>
+                                        </td>
+                                        <td style="cursor: pointer;">
+                                            <a ng-click="changeActiveTab(webPages.BookingDetails); chooseTrainForBooking(train)" class="cmn__btn">
+                                                <span>
+                                                    Book Now
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+@*
+                                    <tr>
+                                        <td>
+                                        </td>
+                                        <td ng-show="train.vagons.length == 1"></td>
+
+                                        <td ng-click="selectVagonClass(vagon)" ng-repeat="vagon in train.vagons" style="font-weight: bold; cursor: pointer;" class="vagon_name">
+                                            {{vagon.name}}
+                                        </td>
+                                        <td ng-show="train.vagons.length == 2"></td>
+                                        <td>
+                                        </td>
+                                    </tr>*@
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div ng-hide="departureDataToWorkWith.trains.length > 0" style="text-align:center; margin-bottom:50px;">
+                <h3>ვერცერთი მატარებელი ვერ მოიძებნა</h3>
+                <button ng-click="changeActiveTab(webPages.Home)" class="cmn__btn">
+                    <span>დაბრუნდი უკან</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- hotel list End -->
+<!-- Footer Here -->
