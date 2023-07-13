@@ -220,6 +220,11 @@ namespace TrainticketBooking.Repository
 
         }
 
+        public async Task<List<Station>> GetStations()
+        {
+            return await _context.Stations.ToListAsync();
+        }
+
         public async Task<Ticket> ConfirmTicket(Guid id)
         {
             var ticket = await _context.Tickets

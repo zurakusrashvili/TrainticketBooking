@@ -108,6 +108,7 @@
                                                                 <td class="tm_border_left tm_border_top_0"><b class="tm_primary_color">გვარი:</b> {{person.surname}}</td>
                                                                 <td class="tm_border_left tm_border_top_0"><b class="tm_primary_color">პირადი ნომერი:</b> {{person.idNumber}}</td>
                                                                 <td class="tm_border_left tm_border_top_0"><b class="tm_primary_color">ადგილი:</b> {{personsMockData[$index].seatNumber}}</td>
+                                                                <td class="tm_border_left tm_border_top_0"><b class="tm_primary_color">ვაგონის N:</b> {{personsMockData[$index].vagon.name.startsWith("I კლასი") ? 1 : personsMockData[$index].vagon.name.startsWith("II კლასი") ? 2 : 3}}</td>
                                                             </tr>
                                                         </tbody>
                                                     </table>

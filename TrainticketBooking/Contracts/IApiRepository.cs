@@ -19,6 +19,7 @@ namespace TrainticketBooking.Contracts
 
         Task<Seat> GetTicketById(Guid seatId);
         Task<int> DeleteAllTickets();
+        Task<List<Station>> GetStations();
 
     }
 }

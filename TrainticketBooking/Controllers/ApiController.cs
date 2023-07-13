@@ -26,9 +26,15 @@ namespace HotelBooking.Controllers
             this._repository = repository;
             this._mapper = mapper;
         }
-
+        [HttpGet]
+        [Route("stations")]
+        public async Task<ActionResult<IEnumerable<Train>>> GetAllStations()
+        {
+            var stations = await _repository.GetStations();
+            return Ok(stations);
+        }
         //Trains
-       [HttpGet]
+        [HttpGet]
        [Route("trains")]
         public async Task<ActionResult<IEnumerable<Train>>> GetAllTrains()
         {

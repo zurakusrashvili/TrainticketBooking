@@ -15,6 +15,9 @@ namespace TrainticketBooking.Data
 
         public string Departure { get; set; }
         public string Arrive { get; set; }
+
+        [ForeignKey(nameof(DepartureId))]
+        public int DepartureId { get; set; }
         public virtual IList<Vagon> Vagons { get; set; }
 
     }

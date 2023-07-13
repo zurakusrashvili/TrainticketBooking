@@ -5,7 +5,7 @@
         <div class="hotelbooking__categoris__wrap spacebottom__none">
             <div class="dating__body">
                 <h5 class="hoteltitle">
-                    Book Train Tickets
+                   დაჯავშნეთ მატარებლის ბილეთი
                 </h5>
                 <div class="dating__body">
                     </div>
@@ -15,10 +15,16 @@
                             <div class="dating__item select__border">
                                 <select name="departureFrom" required>
                                     <option value="0" disabled selected style="color:black !important;">
-                                        From
+                                        საიდან
                                     </option>
                                     <option value="თბილისი">
                                         თბილისი
+                                    </option>
+                                    <option value="ბათუმი">
+                                        ბათუმი
+                                    </option>
+                                    <option value="ფოთი">
+                                        ფოთი
                                     </option>
                                 </select>
                             </div>
@@ -27,10 +33,16 @@
                             <div class="dating__item select__border">
                                 <select name="departureTo" required>
                                     <option value="0" disabled selected style="color:black !important;">
-                                        To
+                                        სად
+                                    </option>
+                                    <option value="თბილისი">
+                                       თბილისი
                                     </option>
                                     <option value="ბათუმი">
-                                       ბათუმი
+                                        ბათუმი
+                                    </option>
+                                    <option value="ფოთი">
+                                        ფოთი
                                     </option>
                                 </select>
                             </div>
@@ -38,7 +50,7 @@
                             <div class="col-xxl-3 col-xl-6 col-lg-3 col-md-6 col-sm-12">
                                 <div class="dating__item dating__hidden">
                                     <div id="datepicker" class="input-group date" data-date-format="yyyy-mm-dd">
-                                    <input class="form-control" type="text" placeholder="Depart Date" readonly name="departureDate" required>
+                                    <input class="form-control" type="text" placeholder="გამგზავრების თარიღი" readonly name="departureDate" required>
                                         <span class="calendaricon">
                                             <i class="material-symbols-outlined">
                                                 calendar_month
@@ -49,8 +61,9 @@
                                 </div>
                             </div>
                             <div class="col-xxl-3 col-xl-6 col-lg-3 col-md-6 col-sm-12">
-                                <div class="dating__item select__border">
-                                    <select name="passengerCount" required>
+                                <div class="dating__item">
+                                <input class="form-control" type="text" placeholder="მგზავრების რაოდენობა" name="passengerCount" required>
+                                   @* <select name="passengerCount" required>
                                     <option value="0" disabled selected style="color:black !important;">
                                         Passenger Count
                                     </option>
@@ -69,14 +82,14 @@
                                         <option value="5">
                                             5
                                         </option>
-                                    </select>
+                                    </select>*@
                                 </div>
                             </div>
                             <div class="col-xxl-2 col-xl-6 col-lg-3 col-md-6 col-sm-12">
                                 <div class="dating__item">
                                     <button type="submit" class="cmn__btn">
                                         <span>
-                                            Search Trains
+                                            მატარებლების მოძებნა
                                         </span>
                                     </button>
                                 </div>
@@ -96,11 +109,11 @@
             <div class="col-xxl-6 col-xl-6 col-lg-6">
                 <div class="train__ticket__content">
                     <div class="section__header mb__30">
-                        <h2>
-                            Different Types of Train Ticket Booking
-                        </h2>
+                        <h4>
+                            მატარებლის ბილეთები
+                        </h4>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use...
+                            რკინიგზის ბილეთების შესაძენად თქვენ დაგჭირდებათ თითოეული მგზავრის პირადი ნომერი. გთხოვთ მოამზადოთ ეს ინფორმაცია წინასწარ.
                         </p>
                     </div>
                     <ul class="offer__list pb__40">
@@ -109,7 +122,7 @@
                                 <img src="assets/img/train/unoffer.png" alt="img">
                             </span>
                             <span class="text">
-                                Unlimited Offers
+                                შეუზღუდავი შეთავაზებები
                             </span>
                         </li>
                         <li>
@@ -117,7 +130,7 @@
                                 <img src="assets/img/train/suppor24.png" alt="img">
                             </span>
                             <span class="text">
-                                24X7 Support
+                                24X7 მხარდაჭერა
                             </span>
                         </li>
                         <li>
@@ -125,7 +138,7 @@
                                 <img src="assets/img/train/secure100.png" alt="img">
                             </span>
                             <span class="text">
-                                100% Secure
+                                100% უსაფრთხო
                             </span>
                         </li>
                         <li>
@@ -133,15 +146,10 @@
                                 <img src="assets/img/train/truspay.png" alt="img">
                             </span>
                             <span class="text">
-                                Trust pay
+                               100% უსაფრთხო გადახდა
                             </span>
                         </li>
                     </ul>
-                    <a ng-click="changeActiveTab(webPages.TrainList)" class="cmn__btn">
-                        <span>
-                            Explore deals
-                        </span>
-                    </a>
                 </div>
             </div>
             <div class="col-xxl-5 col-xl-5 col-lg-5">
@@ -152,666 +160,6 @@
         </div>
     </div>
 </section>
-<!-- train ticket end -->
-<!-- train ticketeasily Here -->
-<section class="ticketeasily__section">
-    <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-xxl-6 col-xl-7 col-lg-7">
-                <div class="refer__content trainticket__content">
-                    <div class="section__header mb__30 wow fadeInDown">
-                        <h2>
-                            How to purchase ticket very easily
-                        </h2>
-                        <p>
-                            There are many variations of passages of Lorem Ipsum available, but the have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use...
-                        </p>
-                    </div>
-                    <div class="refer__wrap pt__20">
-                        <div class="refer__item wow fadeInUp" data-wow-duration="1.2s">
-                            <div class="icon">
-                                <img src="assets/img/train/trainsearch.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h5>
-                                    Search Train
-                                </h5>
-                                <p>Choose your origin, destination, jouney dates and search for trains</p>
-                            </div>
-                        </div>
-                        <div class="refer__item wow fadeInUp" data-wow-duration="1.4s">
-                            <div class="icon">
-                                <img src="assets/img/train/slecetseats.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h5>
-                                    Select seats
-                                </h5>
-                                <p>Select your desired trip and choose your seats</p>
-                            </div>
-                        </div>
-                        <div class="refer__item wow fadeInUp" data-wow-duration="1.6s">
-                            <div class="icon">
-                                <img src="assets/img/train/buypay.png" alt="img">
-                            </div>
-                            <div class="content">
-                                <h5>
-                                    Buy & pay
-                                </h5>
-                                <p>Pay for the tickets Via Dbit / Creadit Cards or MFS</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a ng-click="changeActiveTab(webPages.TrainList)" class="cmn__btn wow fadeInUp" data-wow-duration="1.8s">
-                        <span>
-                            Explore deals
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xxl-6 col-xl-5 col-lg-5">
-            </div>
-        </div>
-    </div>
-    <div class="trainticket__shape">
-        <img src="assets/img/train/tarinshapeticket.png" alt="img">
-    </div>
-</section>
-<!-- train ticketeasily End -->
-<!-- train facilities here -->
-<section class="hotel__facilities pt-120 pb-120">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xxl-6 col-xl-7 col-lg-7 wow fadeInDown">
-                <div class="section__header section__center pb__60">
-                    <h2>
-                        Train Facilities
-                    </h2>
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="flight__facilites__wrap">
-            <div class="row g-4 justify-content-center">
-                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1.2s">
-                    <div class="hotel__facilities__item">
-                        <div class="head__wrap">
-                            <img src="assets/img/room/breakfast.png" alt="img">
-                            <h5>
-                                <a href="#">
-                                    Breakfast
-                                </a>
-                            </h5>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the...
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1.6s">
-                    <div class="hotel__facilities__item">
-                        <div class="head__wrap">
-                            <img src="assets/img/room/seats.png" alt="img">
-                            <h5>
-                                <a href="#">
-                                    Comfortable seats
-                                </a>
-                            </h5>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the...
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1.9s">
-                    <div class="hotel__facilities__item">
-                        <div class="head__wrap">
-                            <img src="assets/img/room/wifi.png" alt="img">
-                            <h5>
-                                <a href="#">
-                                    Sunlimited WIFI
-                                </a>
-                            </h5>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the...
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="2.1s">
-                    <div class="hotel__facilities__item">
-                        <div class="head__wrap">
-                            <img src="assets/img/room/drinkss.png" alt="img">
-                            <h5>
-                                <a href="#">
-                                    Cold Drinks
-                                </a>
-                            </h5>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the...
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="2.2s">
-                    <div class="hotel__facilities__item">
-                        <div class="head__wrap">
-                            <img src="assets/img/room/hotcoffee.png" alt="img">
-                            <h5>
-                                <a href="#">
-                                    Hot Coffee
-                                </a>
-                            </h5>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the...
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="2.3s">
-                    <div class="hotel__facilities__item">
-                        <div class="head__wrap">
-                            <img src="assets/img/room/salat.png" alt="img">
-                            <h5>
-                                <a href="#">
-                                    Place of Religion Pray
-                                </a>
-                            </h5>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the...
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="2.3s">
-                    <div class="hotel__facilities__item">
-                        <div class="head__wrap">
-                            <img src="assets/img/room/medical.png" alt="img">
-                            <h5>
-                                <a href="#">
-                                    Medical treatment
-                                </a>
-                            </h5>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the...
-                        </p>
-                    </div>
-                </div>
-                <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="2.3s">
-                    <div class="hotel__facilities__item">
-                        <div class="head__wrap">
-                            <img src="assets/img/room/supports.png" alt="img">
-                            <h5>
-                                <a href="#">
-                                    Unlimited Support
-                                </a>
-                            </h5>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the...
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- train facilities End -->
-<!--train booktour here -->
-<section class="flight__tour train__tour">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-xx-6 col-xl-6 col-lg-6"></div>
-            <div class="col-xx-6 col-xl-6 col-lg-6 col-md-8">
-                <div class="train__tour__contetn">
-                    <div class="section__header">
-                        <h2>
-                            The best solution for traveling by train
-                        </h2>
-                        <p class="pb__40">
-                            There are many variations of passages of Lorem Ipsum available, but the have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use It is a long established fact that
-                            a reader will be distracted by the readable content...
-                        </p>
-                        <a href="flight-oneway.html" class="cmn__btn">
-                            <span>
-                                Explore deals
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bshape1">
-        <img src="assets/img/train/ss2.png" alt="img">
-    </div>
-    <div class="bshape2">
-        <img src="assets/img/train/ss1.png" alt="img">
-    </div>
-    <div class="train__travelshape">
-        <img src="assets/img/train/bullet1.jpg" alt="img">
-    </div>
-</section>
-<!--train booktour End -->
-<!--train support here-->
-<section class="refer__section__three pt-120 pb-120">
-    <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-lg-6">
-                <div class="section__header">
-                    <h2>
-                        Get train information service here
-                    </h2>
-                    <p class="pb__40">
-                        There are many variations of passages of Lorem Ipsum available, but the have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use...
-                    </p>
-                    <a href="javascript:void(0)" class="cmn__btn">
-                        <span>
-                            Explore deals
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="refer__boxes__wrap refer__boxes__wrapthree">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="refer__items__thregrid">
-                                <div class="refer__item refer__item__grid">
-                                    <div class="icon">
-                                        <img src="assets/img/train/pnarstatustrain.png" alt="img">
-                                    </div>
-                                    <div class="content">
-                                        <h5>
-                                            PNR Status
-                                        </h5>
-                                        <p>There are many variations of passages of Lorem...</p>
-                                        <a href="train-grid.html" class="righicon">
-                                            <i class="material-symbols-outlined">
-                                                chevron_right
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="refer__item refer__item__grid">
-                                    <div class="icon">
-                                        <img src="assets/img/train/viewcoasch.png" alt="img">
-                                    </div>
-                                    <div class="content">
-                                        <h5>
-                                            View coach position
-                                        </h5>
-                                        <p>There are many variations of passages of Lorem...</p>
-                                        <a href="train-grid.html" class="righicon">
-                                            <i class="material-symbols-outlined">
-                                                chevron_right
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 updown__support">
-                            <div class="refer__items__thregrid">
-                                <div class="refer__item refer__item__grid">
-                                    <div class="icon">
-                                        <img src="assets/img/train/livetrain.png" alt="img">
-                                    </div>
-                                    <div class="content">
-                                        <h5>
-                                            Live train status
-                                        </h5>
-                                        <p>There are many variations of passages of Lorem...</p>
-                                        <a href="train-grid.html" class="righicon">
-                                            <i class="material-symbols-outlined">
-                                                chevron_right
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="refer__item refer__item__grid">
-                                    <div class="icon">
-                                        <img src="assets/img/train/platform.png" alt="img">
-                                    </div>
-                                    <div class="content">
-                                        <h5>
-                                            Platform Locator
-                                        </h5>
-                                        <p>There are many variations of passages of Lorem...</p>
-                                        <a href="train-grid.html" class="righicon">
-                                            <i class="material-symbols-outlined">
-                                                chevron_right
-                                            </i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="refer__dotthree1">
-                        <img src="assets/img/refer/dots.png" alt="img">
-                    </div>
-                    <div class="refer__dotthree2">
-                        <img src="assets/img/refer/dots.png" alt="img">
-                    </div>
-                    <div class="refer__dotthree3">
-                        <img src="assets/img/refer/dots.png" alt="img">
-                    </div>
-                    <div class="refer__dotthree4">
-                        <img src="assets/img/refer/dots.png" alt="img">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="refer__ball">
-        <img src="assets/img/refer/referball.png" alt="img">
-    </div>
-</section>
-<!--train support end-->
-<!--train two app end-->
-<section class="app__section bgsection pt-120 pb-120">
-    <div class="container">
-        <div class="row flex-row-reverse justify-content-between align-items-center">
-            <div class="col-xl-6 col-lg-7 col-md-7 wow fadeInDown" data-wow-duration="1.5s">
-                <div class="app__content">
-                    <div class="section__header">
-                        <h2>
-                            Instructions to Purchase Train Tickets
-                        </h2>
-                        <p class="apptext">
-                            Download our app for the fastest, most convenient way to Booking System.
-                        </p>
-                        <ul class="train__list pb__40">
-                            <li>
-                                <span class="icons">
-                                    <i class="material-symbols-outlined">
-                                        done
-                                    </i>
-                                </span>
-                                <span class="textss">
-                                    Tickets can be bought online five days in advance.
-                                </span>
-                            </li>
-                            <li>
-                                <span class="icons">
-                                    <i class="material-symbols-outlined">
-                                        done
-                                    </i>
-                                </span>
-                                <span class="text">
-                                    In case of payment or transaction failure, the deducted amount would be refunded by your bank within 8 business days.
-                                </span>
-                            </li>
-                            <li>
-                                <span class="icons">
-                                    <i class="material-symbols-outlined">
-                                        done
-                                    </i>
-                                </span>
-                                <span class="text">
-                                    In case money has been deducted from your card / mobile wallet but you have not received a ticket confirmation, the deducted amount would be refunded by your bank  within 8 business days.
-                                </span>
-                            </li>
-                            <li>
-                                <span class="icons">
-                                    <i class="material-symbols-outlined">
-                                        done
-                                    </i>
-                                </span>
-                                <span class="text">
-                                    Download the official app published by Rechargio from App store
-                                </span>
-                            </li>
-                            <li>
-                                <span class="icons">
-                                    <i class="material-symbols-outlined">
-                                        done
-                                    </i>
-                                </span>
-                                <span class="text">
-                                    In case of passengers downloading fake apps or any other app from app store which claim to sell train tickets of Rechargio, the authorities will not take any liability.
-                                </span>
-                            </li>
-                        </ul>
-                        <div class="d-flex gap-3 align-items-center">
-                            <a href="javascript:void(0)" class="storyitem">
-                                <img src="assets/img/app/appplay.png" alt="img">
-                            </a>
-                            <a href="javascript:void(0)" class="storyitem">
-                                <img src="assets/img/app/appstore.png" alt="img">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-5 col-lg-5 col-md-5 wow fadeInUp" data-wow-duration="2.5s">
-                <div class="app__thumb app__thumb__two">
-                    <img src="assets/img/app/apptwo.png" alt="img">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--train two app end-->
-<!--train two qustions start-->
-<section class="question__section pt-120 pb-120">
-    <div class="container">
-        <div class="row justify-content-center wow fadeInDown">
-            <div class="col-lg-6">
-                <div class="section__header section__center pb__40">
-                    <h2>
-                        If you got questions we have answer
-                    </h2>
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-6">
-                <div class="qustion__content">
-                    <div class="accordion__wrap">
-                        <div class="accordion" id="accordionExample">
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="0.9s">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What is e recharge?
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1s">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        What is recharge credit?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1.4s">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        How reliable is recharge com?
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1.6s">
-                                <h2 class="accordion-header" id="headingThreem">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreem" aria-expanded="false" aria-controls="collapseThreem">
-                                        What is recharge application?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreem" class="accordion-collapse collapse" aria-labelledby="headingThreem" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1.8s">
-                                <h2 class="accordion-header" id="headingThreemm">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreemm" aria-expanded="false" aria-controls="collapseThreemm">
-                                        How do I recharge a phone number?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreemm" class="accordion-collapse collapse" aria-labelledby="headingThreemm" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1.9s">
-                                <h2 class="accordion-header" id="headingThreemmm">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreemmm" aria-expanded="false" aria-controls="collapseThreemmm">
-                                        What is the primary function of the recharge payment application?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreemmm" class="accordion-collapse collapse" aria-labelledby="headingThreemmm" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="qustion__content">
-                    <div class="accordion__wrap">
-                        <div class="accordion" id="accordionExample2">
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="0.9s">
-                                <h2 class="accordion-header" id="headingOness">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOness" aria-expanded="true" aria-controls="collapseOne">
-                                        What is e recharge?
-                                    </button>
-                                </h2>
-                                <div id="collapseOness" class="accordion-collapse collapse" aria-labelledby="headingOness" data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1s">
-                                <h2 class="accordion-header" id="headingTwoss">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoss" aria-expanded="false" aria-controls="collapseTwo">
-                                        What is recharge credit?
-                                    </button>
-                                </h2>
-                                <div id="collapseTwoss" class="accordion-collapse collapse" aria-labelledby="headingTwoss" data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1.4s">
-                                <h2 class="accordion-header" id="headingThreess">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreess" aria-expanded="false" aria-controls="collapseThree">
-                                        How reliable is recharge com?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreess" class="accordion-collapse collapse" aria-labelledby="headingThreess" data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1.6s">
-                                <h2 class="accordion-header" id="headingThreemss">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreemss" aria-expanded="false" aria-controls="collapseThreem">
-                                        What is recharge application?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreemss" class="accordion-collapse collapse" aria-labelledby="headingThreemss" data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1.8s">
-                                <h2 class="accordion-header" id="headingThreemmss">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreemmss" aria-expanded="false" aria-controls="collapseThreemm">
-                                        How do I recharge a phone number?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreemmss" class="accordion-collapse collapse" aria-labelledby="headingThreemmss" data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                            <div class="accordion-item wow fadeInUp" data-wow-duration="1.9s">
-                                <h2 class="accordion-header" id="headingThreemmmss">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreemmmss" aria-expanded="false" aria-controls="collapseThreemmm">
-                                        What is the primary function of the recharge payment application?
-                                    </button>
-                                </h2>
-                                <div id="collapseThreemmmss" class="accordion-collapse collapse show" aria-labelledby="headingThreemmmss" data-bs-parent="#accordionExample2">
-                                    <div class="accordion-body">
-                                        <p>
-                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Accordion items-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--train two qustions start-->
+
+
+

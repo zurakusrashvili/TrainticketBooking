@@ -2,6 +2,7 @@
     trains: Train[];
     departures: Departure[];
     vagons: Vagon[];
+    stations: Station[];
 
     activeTab: number
     webPages: any
@@ -17,14 +18,14 @@
 
     // Tickets
     getAllTickets: () => void;
-    registerTicket: (data: RegisterTicketConfig) => void;
+    registerTicket: (data: RegisterTicketConfig, isFormValid: boolean) => void;
     checkTicketStatus: (ticketId: string) => void;
     confirmTicketStatus: (ticketId: string) => void;
     cancelTicket: (ticketId: string) => void;
 
     departureFormData: any;
 
-    changeActiveTab: (tab: any) => void;
+    changeActiveTab: (tab: any, isFormInvalid?: boolean) => void;
 
     findDepartures: () => void;
 
@@ -69,13 +70,22 @@
     CheckedSeatsFromTicket: Seat[]
 
     getSeatNumber: (seatId: string) => void;
+
+    getAllStations: () => void;
+
+    resetData: () => void;
 }
 
 interface CreditCard {
     number: string,
     expDate: string,
-    cvv: string,
+    cvvNumber: string,
     nameOnCard: string;
+}
+interface Station {
+    id: string,
+    name: string,
+    stationNumber: string
 }
 
 interface DepartureFormConfig {
@@ -157,7 +167,8 @@ interface PersonMock {
     idNumber: string,
     status: string,
     payoutCompleted: boolean;
-    seatNumber: string
+    seatNumber: string;
+    vagon: Vagon;
 }
 
 interface PersonPost {

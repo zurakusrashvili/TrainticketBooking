@@ -74,6 +74,19 @@ class LobbyClass {
                             }
                         });
                     },
+                    getAllStations() {
+                        $.ajax({
+                            type: "GET",
+                            url: `https://${window.location.host}/api/stations`,
+                            success: function (response) {
+                                $scope.stations = response;
+                                console.log($scope.stations);
+                                $scope.$applyAsync();
+                            },
+                            complete: function () {
+                            }
+                        });
+                    },
                     customSort: function (seat) {
                         var number = parseInt(seat.number.match(/\d+/)[0], 10);
                         var alphabeticPart = seat.number.match(/[A-Za-z]+/)[0];
@@ -93,7 +106,12 @@ class LobbyClass {
                             }
                         });
                     },
-                    registerTicket(data) {
+                    registerTicket(data, isFormInvalid) {
+                        if (isFormInvalid) {
+                            $(".travel__validateText").removeClass('hidden');
+                            $(".travel__validateText").addClass('shown');
+                            return;
+                        }
                         $.ajax({
                             type: "POST",
                             url: `https://${window.location.host}/api/tickets/register`,
@@ -146,12 +164,32 @@ class LobbyClass {
                             }
                         });
                     },
+                    resetData() {
+                        $scope.personsMockData = [];
+                        $scope.finalTicketToConfirm = undefined;
+                        $scope.personsForTicket = [];
+                        $scope.selectedPersonId = undefined;
+                        $scope.departureFormData = undefined;
+                        $scope.creditCardInfo = {
+                            cvvNumber: '',
+                            expDate: '',
+                            nameOnCard: '',
+                            number: ''
+                        };
+                        $scope.TicketIdToBeChecked = '';
+                        $scope.chosenTrainForBooking = undefined;
+                        $scope.chosenVagon = undefined;
+                        $scope.CheckedSeatsFromTicket = [];
+                        $scope.departureDataToWorkWith = undefined;
+                        $scope.previouslyClickedSeat = undefined;
+                        $scope.ticketRegisterData = undefined;
+                    },
                     confirmTicketStatus(ticketId) {
                         let creditData = $('#creditCardInfo').serializeArray();
                         $scope.creditCardInfo = {
                             number: creditData[0].value,
                             expDate: creditData[1].value,
-                            cvv: creditData[2].value,
+                            cvvNumber: creditData[2].value,
                             nameOnCard: creditData[3].value
                         };
                         $.ajax({
@@ -176,7 +214,16 @@ class LobbyClass {
                             }
                         });
                     },
-                    changeActiveTab(data) {
+                    changeActiveTab(data, isFormInvalid) {
+                        if (data == $scope.webPages.Home || data == $scope.webPages.CheckTicket) {
+                            $scope.resetData();
+                            $scope.showNoTicket = false;
+                            $scope.showTicket = false;
+                            $scope.showCanceledTicketText = false;
+                        }
+                        if (isFormInvalid) {
+                            return;
+                        }
                         $("html, body").scrollTop(0);
                         $scope.activeTab = data;
                     },
@@ -212,6 +259,7 @@ class LobbyClass {
                         }
                         if ($scope.previouslyClickedSeat.length > 0) {
                             if ($scope.previouslyClickedSeat[$scope.selectedPersonId]) {
+                                $scope.ticketPriceSum -= $scope.previouslyClickedSeat[$scope.selectedPersonId].price;
                                 $scope.chosenVagon.seats[$scope.chosenVagon.seats.findIndex(r => r.number == $scope.previouslyClickedSeat[$scope.selectedPersonId].number)].isOccupied = false;
                             }
                             $scope.$applyAsync();
@@ -221,6 +269,7 @@ class LobbyClass {
                         $scope.ticketPriceSum += seat.price;
                         $scope.personsMockData[$scope.selectedPersonId].seatNumber = seat.number;
                         $scope.ticketRegisterData.people[$scope.selectedPersonId].seatId = seat.seatId;
+                        $scope.personsMockData[$scope.selectedPersonId].vagon = $scope.chosenVagon;
                         console.log("Final Register: ", $scope.ticketRegisterData);
                         $scope.$applyAsync();
                     },
@@ -249,10 +298,12 @@ class LobbyClass {
                                 seatId: '',
                                 status: '0',
                                 surname: '',
-                                seatNumber: '0'
+                                seatNumber: '0',
+                                vagon: undefined
                             };
                             $scope.personsForTicket.push(person);
                             $scope.personsMockData.push(personMock);
+                            $('#chooseDepartureForm input').val('');
                         }
                         $scope.getDepartureById({
                             from: formData[0].value,
@@ -303,12 +354,13 @@ class LobbyClass {
                         $scope.ticketPriceSum = 0;
                         $scope.webPages = Pages;
                         $scope.activeTab = $scope.webPages.Home;
+                        $scope.getAllStations();
                         $scope.showNoTicket = false;
                         $scope.showTicket = false;
                         $scope.showCanceledTicketText = false;
                         $scope.TicketIdToBeChecked = '';
                         $scope.creditCardInfo = {
-                            cvv: '',
+                            cvvNumber: '',
                             expDate: '',
                             nameOnCard: '',
                             number: ''

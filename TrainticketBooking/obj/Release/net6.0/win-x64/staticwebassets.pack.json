@@ -1,504 +1,1212 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\obj\\Release\\net6.0\\win-x64\\scopedcss\\projectbundle\\RestaurantAPI.bundle.scp.css",
-      "PackagePath": "staticwebassets\\RestaurantAPI.bundle.scp.css"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\obj\\Release\\net6.0\\win-x64\\scopedcss\\projectbundle\\TrainticketBooking.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TrainticketBooking.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\datepickerboot.css",
+      "PackagePath": "staticwebassets\\assets\\css\\datepickerboot.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\google-font.css",
+      "PackagePath": "staticwebassets\\assets\\css\\google-font.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\magnific-popup.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\odometer.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\odometer.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\prism.css",
+      "PackagePath": "staticwebassets\\assets\\css\\prism.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\css\\ticket.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ticket.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\a.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\a.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\available.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\available.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\b.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\b.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\booked.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\booked.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\c.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\c.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\d.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\d.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\e.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\e.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\f.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\f.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\g.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\g.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\h.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\h.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\i.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\i.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\j.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\j.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\k.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\k.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\l.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\l.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\m.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\m.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\n.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\n.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\o.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\o.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\p.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\p.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\q.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\q.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\r.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\r.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\s.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\s.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\seat-a.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\seat-a.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\seat-amain.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\seat-amain.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\seat-b.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\seat-b.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\seat-bmain.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\seat-bmain.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\seat-s.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\seat-s.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\selectted.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\selectted.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\t.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\t.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\u.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\u.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\v.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\v.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\w.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\w.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\y.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\y.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\allseat\\z.png",
+      "PackagePath": "staticwebassets\\assets\\img\\allseat\\z.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\app\\appplay.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app\\appplay.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\app\\appstore.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app\\appstore.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\app\\apptwo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app\\apptwo.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\app\\blarcolor.png",
+      "PackagePath": "staticwebassets\\assets\\img\\app\\blarcolor.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\logo\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\balance.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\balance.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\bbel.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\bbel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\check.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\check.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\deltas.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\deltas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\fastpay.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\fastpay.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\line-vertical.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\line-vertical.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\nortex.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\nortex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\payoneer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\payoneer.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\paypals.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\paypals.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\southzoon.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\southzoon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\payment\\visas.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\visas.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\preloader\\preloader.png",
+      "PackagePath": "staticwebassets\\assets\\img\\preloader\\preloader.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\preloader\\rechage.png",
+      "PackagePath": "staticwebassets\\assets\\img\\preloader\\rechage.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\refer\\dots.png",
+      "PackagePath": "staticwebassets\\assets\\img\\refer\\dots.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\refer\\downarrow.png",
+      "PackagePath": "staticwebassets\\assets\\img\\refer\\downarrow.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\refer\\referball.png",
+      "PackagePath": "staticwebassets\\assets\\img\\refer\\referball.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\refer\\topnarrow.png",
+      "PackagePath": "staticwebassets\\assets\\img\\refer\\topnarrow.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\room\\breakfast.png",
+      "PackagePath": "staticwebassets\\assets\\img\\room\\breakfast.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\room\\drinkss.png",
+      "PackagePath": "staticwebassets\\assets\\img\\room\\drinkss.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\room\\hotcoffee.png",
+      "PackagePath": "staticwebassets\\assets\\img\\room\\hotcoffee.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\room\\medical.png",
+      "PackagePath": "staticwebassets\\assets\\img\\room\\medical.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\room\\salat.png",
+      "PackagePath": "staticwebassets\\assets\\img\\room\\salat.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\room\\seats.png",
+      "PackagePath": "staticwebassets\\assets\\img\\room\\seats.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\room\\supports.png",
+      "PackagePath": "staticwebassets\\assets\\img\\room\\supports.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\room\\wifi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\room\\wifi.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\stepLogo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\stepLogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\ball.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\ball.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\clocks.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\clocks.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\coffee.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\coffee.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\covid19.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\covid19.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\cross.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\cross.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\dropdown.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\dropdown.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\info-cancel.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\info-cancel.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\instagram.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\over-check.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\over-check.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\pbag1.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\pbag1.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\pbag2.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\pbag2.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\pbag3.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\pbag3.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\radio.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\radio.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\singlebess.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\singlebess.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\singlecoffee.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\singlecoffee.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\twitter.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\w-chaeck.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\w-chaeck.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\svg\\wifis.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\svg\\wifis.svg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\bullet1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\bullet1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\buypay.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\buypay.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\livetrain.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\livetrain.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\platform.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\platform.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\pnarstatustrain.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\pnarstatustrain.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\secure100.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\secure100.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\slecetseats.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\slecetseats.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\ss1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\ss1.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\ss2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\ss2.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\suppor24.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\suppor24.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\tarinshapeticket.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\tarinshapeticket.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\trainsearch.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\trainsearch.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\trainthumb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\trainthumb.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\trainticket.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\trainticket.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\truspay.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\truspay.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\unoffer.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\unoffer.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\img\\train\\viewcoasch.png",
+      "PackagePath": "staticwebassets\\assets\\img\\train\\viewcoasch.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\html2canvas.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\html2canvas.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\jspdf.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jspdf.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\odometer.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\odometer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\prism.js",
+      "PackagePath": "staticwebassets\\assets\\js\\prism.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\viewport.jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\viewport.jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\colors\\turquoise.css",
+      "PackagePath": "staticwebassets\\css\\colors\\turquoise.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\css\\my-account.css",
-      "PackagePath": "staticwebassets\\css\\my-account.css"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\alerts.less",
+      "PackagePath": "staticwebassets\\css\\less\\alerts.less"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\css\\nouislider.min.css",
-      "PackagePath": "staticwebassets\\css\\nouislider.min.css"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\badges.less",
+      "PackagePath": "staticwebassets\\css\\less\\badges.less"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\breadcrumbs.less",
+      "PackagePath": "staticwebassets\\css\\less\\breadcrumbs.less"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\css\\slick.css",
-      "PackagePath": "staticwebassets\\css\\slick.css"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\button-groups.less",
+      "PackagePath": "staticwebassets\\css\\less\\button-groups.less"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\buttons.less",
+      "PackagePath": "staticwebassets\\css\\less\\buttons.less"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\carousel.less",
+      "PackagePath": "staticwebassets\\css\\less\\carousel.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\close.less",
+      "PackagePath": "staticwebassets\\css\\less\\close.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\code.less",
+      "PackagePath": "staticwebassets\\css\\less\\code.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\component-animations.less",
+      "PackagePath": "staticwebassets\\css\\less\\component-animations.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\dropdowns.less",
+      "PackagePath": "staticwebassets\\css\\less\\dropdowns.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\forms.less",
+      "PackagePath": "staticwebassets\\css\\less\\forms.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\glyphicons.less",
+      "PackagePath": "staticwebassets\\css\\less\\glyphicons.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\grid.less",
+      "PackagePath": "staticwebassets\\css\\less\\grid.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\input-groups.less",
+      "PackagePath": "staticwebassets\\css\\less\\input-groups.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\jumbotron.less",
+      "PackagePath": "staticwebassets\\css\\less\\jumbotron.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\labels.less",
+      "PackagePath": "staticwebassets\\css\\less\\labels.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\list-group.less",
+      "PackagePath": "staticwebassets\\css\\less\\list-group.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\media.less",
+      "PackagePath": "staticwebassets\\css\\less\\media.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\alerts.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\alerts.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\background-variant.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\background-variant.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\border-radius.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\border-radius.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\buttons.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\buttons.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\center-block.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\center-block.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\clearfix.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\clearfix.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\forms.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\forms.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\gradients.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\gradients.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\grid-framework.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\grid-framework.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\grid.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\grid.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\hide-text.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\hide-text.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\image.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\image.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\labels.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\labels.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\list-group.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\list-group.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\nav-divider.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\nav-divider.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\nav-vertical-align.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\nav-vertical-align.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\opacity.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\opacity.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\pagination.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\pagination.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\panels.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\panels.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\progress-bar.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\progress-bar.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\reset-filter.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\reset-filter.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\responsive-visibility.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\responsive-visibility.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\tab-focus.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\tab-focus.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\table-row.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\table-row.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\text-emphasis.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\text-emphasis.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\text-overflow.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\text-overflow.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\mixins\\vendor-prefixes.less",
+      "PackagePath": "staticwebassets\\css\\less\\mixins\\vendor-prefixes.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\modals.less",
+      "PackagePath": "staticwebassets\\css\\less\\modals.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\navbar.less",
+      "PackagePath": "staticwebassets\\css\\less\\navbar.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\navs.less",
+      "PackagePath": "staticwebassets\\css\\less\\navs.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\normalize.less",
+      "PackagePath": "staticwebassets\\css\\less\\normalize.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\pager.less",
+      "PackagePath": "staticwebassets\\css\\less\\pager.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\pagination.less",
+      "PackagePath": "staticwebassets\\css\\less\\pagination.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\panels.less",
+      "PackagePath": "staticwebassets\\css\\less\\panels.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\popovers.less",
+      "PackagePath": "staticwebassets\\css\\less\\popovers.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\print.less",
+      "PackagePath": "staticwebassets\\css\\less\\print.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\progress-bars.less",
+      "PackagePath": "staticwebassets\\css\\less\\progress-bars.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\responsive-embed.less",
+      "PackagePath": "staticwebassets\\css\\less\\responsive-embed.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\responsive-utilities.less",
+      "PackagePath": "staticwebassets\\css\\less\\responsive-utilities.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\scaffolding.less",
+      "PackagePath": "staticwebassets\\css\\less\\scaffolding.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\tables.less",
+      "PackagePath": "staticwebassets\\css\\less\\tables.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\thumbnails.less",
+      "PackagePath": "staticwebassets\\css\\less\\thumbnails.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\tooltip.less",
+      "PackagePath": "staticwebassets\\css\\less\\tooltip.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\type.less",
+      "PackagePath": "staticwebassets\\css\\less\\type.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\utilities.less",
+      "PackagePath": "staticwebassets\\css\\less\\utilities.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\less\\wells.less",
+      "PackagePath": "staticwebassets\\css\\less\\wells.less"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\owl.theme.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\smoothness\\jquery-ui-1.10.4.custom.min.css",
+      "PackagePath": "staticwebassets\\css\\smoothness\\jquery-ui-1.10.4.custom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\smoothness\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\css\\smoothness\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\fonts\\fontawesome-webfont (1).woff2",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont (1).woff2"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\fonts\\fontawesome-webfont (2).woff2",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont (2).woff2"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\fonts\\fontawesome-webfont.woff2",
-      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\2.jpg",
-      "PackagePath": "staticwebassets\\images\\2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\banner_bg.jpg",
-      "PackagePath": "staticwebassets\\images\\banner_bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\border.png",
-      "PackagePath": "staticwebassets\\images\\border.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\border_Ctop (1).png",
-      "PackagePath": "staticwebassets\\images\\border_Ctop (1).png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\border_Ctop.png",
-      "PackagePath": "staticwebassets\\images\\border_Ctop.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\border_footer.png",
-      "PackagePath": "staticwebassets\\images\\border_footer.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\border_hwork.png",
-      "PackagePath": "staticwebassets\\images\\border_hwork.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\bt_border.png",
-      "PackagePath": "staticwebassets\\images\\bt_border.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\bt_hoverborder.png",
-      "PackagePath": "staticwebassets\\images\\bt_hoverborder.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\card_img.png",
-      "PackagePath": "staticwebassets\\images\\card_img.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\cart1.png",
-      "PackagePath": "staticwebassets\\images\\cart1.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\cart_1 (1).png",
-      "PackagePath": "staticwebassets\\images\\cart_1 (1).png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\cart_1.png",
-      "PackagePath": "staticwebassets\\images\\cart_1.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\cart_bg.jpg",
-      "PackagePath": "staticwebassets\\images\\cart_bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\check-icon.svg",
-      "PackagePath": "staticwebassets\\images\\check-icon.svg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\cheesy-pizza.png",
-      "PackagePath": "staticwebassets\\images\\cheesy-pizza.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\client_bg.jpg",
-      "PackagePath": "staticwebassets\\images\\client_bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\copyright_border.png",
-      "PackagePath": "staticwebassets\\images\\copyright_border.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\download.svg",
-      "PackagePath": "staticwebassets\\images\\download.svg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\f_bg.jpg",
-      "PackagePath": "staticwebassets\\images\\f_bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\f_border.png",
-      "PackagePath": "staticwebassets\\images\\f_border.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\footer_bg.jpg",
-      "PackagePath": "staticwebassets\\images\\footer_bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\gray_Hborder.png",
-      "PackagePath": "staticwebassets\\images\\gray_Hborder.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\gray_Vborder.png",
-      "PackagePath": "staticwebassets\\images\\gray_Vborder.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\h_img1.png",
-      "PackagePath": "staticwebassets\\images\\h_img1.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\h_img2.png",
-      "PackagePath": "staticwebassets\\images\\h_img2.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\h_img3.png",
-      "PackagePath": "staticwebassets\\images\\h_img3.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\hover_Vbg.png",
-      "PackagePath": "staticwebassets\\images\\hover_Vbg.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\hover_bg.png",
-      "PackagePath": "staticwebassets\\images\\hover_bg.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\inner_banner.jpg",
-      "PackagePath": "staticwebassets\\images\\inner_banner.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\logoBlack.png",
-      "PackagePath": "staticwebassets\\images\\logoBlack.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\p_bg.jpg",
-      "PackagePath": "staticwebassets\\images\\p_bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\pro_img1.jpg",
-      "PackagePath": "staticwebassets\\images\\pro_img1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\pro_img2.jpg",
-      "PackagePath": "staticwebassets\\images\\pro_img2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\pro_img3.jpg",
-      "PackagePath": "staticwebassets\\images\\pro_img3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\pro_img4.jpg",
-      "PackagePath": "staticwebassets\\images\\pro_img4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\pro_img5.jpg",
-      "PackagePath": "staticwebassets\\images\\pro_img5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\images\\sprit.png",
-      "PackagePath": "staticwebassets\\images\\sprit.png"
-    },
-    {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\Entities.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\Entities.js",
       "PackagePath": "staticwebassets\\js\\Entities.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\Entities.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\Entities.js.map",
       "PackagePath": "staticwebassets\\js\\Entities.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\angular.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\angular.js",
       "PackagePath": "staticwebassets\\js\\angular.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\angular.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\angular.min.js",
       "PackagePath": "staticwebassets\\js\\angular.min.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\angular.min.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\angular.min.js.map",
       "PackagePath": "staticwebassets\\js\\angular.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\file.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\file.js",
       "PackagePath": "staticwebassets\\js\\file.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\file.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\file.js.map",
       "PackagePath": "staticwebassets\\js\\file.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\template\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\js\\template\\bootstrap.min.js"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\alert.js",
+      "PackagePath": "staticwebassets\\js\\src\\alert.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\template\\custome.js",
-      "PackagePath": "staticwebassets\\js\\template\\custome.js"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\base-component.js",
+      "PackagePath": "staticwebassets\\js\\src\\base-component.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\template\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\js\\template\\jquery.validate.min.js"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\button.js",
+      "PackagePath": "staticwebassets\\js\\src\\button.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\template\\popper.min.js",
-      "PackagePath": "staticwebassets\\js\\template\\popper.min.js"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\carousel.js",
+      "PackagePath": "staticwebassets\\js\\src\\carousel.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\js\\template\\slick.js",
-      "PackagePath": "staticwebassets\\js\\template\\slick.js"
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\collapse.js",
+      "PackagePath": "staticwebassets\\js\\src\\collapse.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\dom\\data.js",
+      "PackagePath": "staticwebassets\\js\\src\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\js\\src\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\js\\src\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\js\\src\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\dropdown.js",
+      "PackagePath": "staticwebassets\\js\\src\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\modal.js",
+      "PackagePath": "staticwebassets\\js\\src\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\offcanvas.js",
+      "PackagePath": "staticwebassets\\js\\src\\offcanvas.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\popover.js",
+      "PackagePath": "staticwebassets\\js\\src\\popover.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\scrollspy.js",
+      "PackagePath": "staticwebassets\\js\\src\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\tab.js",
+      "PackagePath": "staticwebassets\\js\\src\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\toast.js",
+      "PackagePath": "staticwebassets\\js\\src\\toast.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\tooltip.js",
+      "PackagePath": "staticwebassets\\js\\src\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\backdrop.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\component-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\config.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\focustrap.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\index.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\swipe.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\js\\src\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\js\\src\\util\\template-factory.js"
+    },
+    {
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Geekster PC\\Desktop\\Reest\\RestaurantAPI\\wwwroot\\lib\\nouislider.min.js",
+      "Id": "C:\\Users\\zurakusrashvili\\Desktop\\dsa\\TrainTicketBooking\\TrainticketBooking\\wwwroot\\lib\\nouislider.min.js",
       "PackagePath": "staticwebassets\\lib\\nouislider.min.js"
     },
     {
-      "Id": "obj\\Release\\net6.0\\win-x64\\staticwebassets\\msbuild.RestaurantAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Release\\net6.0\\win-x64\\staticwebassets\\msbuild.TrainticketBooking.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Release\\net6.0\\win-x64\\staticwebassets\\msbuild.build.RestaurantAPI.props",
-      "PackagePath": "build\\RestaurantAPI.props"
+      "Id": "obj\\Release\\net6.0\\win-x64\\staticwebassets\\msbuild.build.TrainticketBooking.props",
+      "PackagePath": "build\\TrainticketBooking.props"
     },
     {
-      "Id": "obj\\Release\\net6.0\\win-x64\\staticwebassets\\msbuild.buildMultiTargeting.RestaurantAPI.props",
-      "PackagePath": "buildMultiTargeting\\RestaurantAPI.props"
+      "Id": "obj\\Release\\net6.0\\win-x64\\staticwebassets\\msbuild.buildMultiTargeting.TrainticketBooking.props",
+      "PackagePath": "buildMultiTargeting\\TrainticketBooking.props"
     },
     {
-      "Id": "obj\\Release\\net6.0\\win-x64\\staticwebassets\\msbuild.buildTransitive.RestaurantAPI.props",
-      "PackagePath": "buildTransitive\\RestaurantAPI.props"
+      "Id": "obj\\Release\\net6.0\\win-x64\\staticwebassets\\msbuild.buildTransitive.TrainticketBooking.props",
+      "PackagePath": "buildTransitive\\TrainticketBooking.props"
     }
   ],
   "ElementsToRemove": []

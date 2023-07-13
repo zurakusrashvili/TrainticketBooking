@@ -7,64 +7,10 @@
     <!--Container-->
     <div class="container">
         <div class="breadcumnd__wrapper">
-            <h2 class="bread__title">
-                Train - Confirm Details
-            </h2>
-            <ul class="breadcumnd__link">
-                <li>
-                    <a ng-click="changeActiveTab(webPages.Home)">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <i class="material-symbols-outlined">
-                        chevron_right
-                    </i>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">
-                        Booking
-                    </a>
-                </li>
-                <li>
-                    <i class="material-symbols-outlined">
-                        chevron_right
-                    </i>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">
-                        Train
-                    </a>
-                </li>
-                <li>
-                    <i class="material-symbols-outlined">
-                        chevron_right
-                    </i>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">
-                        Lisst Page
-                    </a>
-                </li>
-                <li>
-                    <i class="material-symbols-outlined">
-                        chevron_right
-                    </i>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">
-                        Booking System
-                    </a>
-                </li>
-                <li>
-                    <i class="material-symbols-outlined">
-                        chevron_right
-                    </i>
-                </li>
-                <li>
-                    Confirm Details
-                </li>
-            </ul>
+            <h6 class="bread__title">
+                მგზავრების მონაცემები
+            </h6>
+          
         </div>
     </div>
     <!--Container-->
@@ -76,9 +22,9 @@
         <div class="row g-4 justify-content-center">
             <div class="col-xxl-9 col-xl-9 col-lg-9">
                 <div class="flight__oneway__confirmdetails shadow bgwhite">
-                    <h3 class="dtext mb__40 xs-28">
-                        Confirm Trains Details
-                    </h3>
+                    <h6 class="dtext mb__40 xs-28">
+                        შეიყვანეთ თქვენი მონაცემები
+                    </h6>
                     <div class="flight__oneway__item2 bdash pb__30 mb__30">
                         <div class="flight__oneway__inner2">
                             <div class="table__two">
@@ -95,23 +41,23 @@
                                             </li>
                                             <li>
                                                 <span class="fz-18 mb__10 d-block fw-600 lato dtext">
-                                                    {{chosenTrainForBooking.departure}} AM
+                                                    {{chosenTrainForBooking.departure}} 
                                                 </span>
                                                 <span class="fz-16 fw-400 lato">
                                                     {{chosenTrainForBooking.from}}
                                                 </span>
                                             </li>
-                                            <li>
+                                      @*      <li>
                                                 <span class="fz-18 mb__10 d-block fw-600 lato dtext">
                                                     2h 10m
                                                 </span>
                                                 <span class="fz-16 fw-400 lato">
                                                     (13+Stops )
                                                 </span>
-                                            </li>
+                                            </li>*@
                                             <li>
                                                 <span class="fz-18 mb__10 d-block fw-600 lato dtext">
-                                                    {{chosenTrainForBooking.arrive}} PM
+                                                    {{chosenTrainForBooking.arrive}} 
                                                 </span>
                                                 <span class="fz-16 fw-400 lato">
                                                     {{chosenTrainForBooking.to}}
@@ -153,7 +99,7 @@
                             <div class="dating__body__box dating__flight mb__30">
                                 <form class="row justify-content-center g-3" name="registerTicketForm" id="registerTicketForm" novalidate>
 
-                                    <div class="travel__validateText mt-4 mb__30">
+                                    <div class="travel__validateText hidden mt-4 mb__30">
                                         <h5 class="dtextValidate mb__15">
                                             *მოხდა შეცდომა. ყველა ველი აუცილებლად უნდა შეივსოს
                                         </h5>
@@ -295,39 +241,9 @@
             <div class="col-xl-3 col-lg-3">
                 <div class="hotel__confirm__invocie">
                     <h5 class="fw-600 gratext lato mb__20 text-center">
-                        Invoice Details
+                        ინვოისი
                     </h5>
-                    <div class="ticket__timeout mb__24">
-                        <p class="fz-16 fw-400 mb__10 lato dtext">
-                            Book now before tickets run out!
-                        </p>
-                        <div class="d-flex gap-3 align-items-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                                <img src="assets/img/svg/clocks.svg" alt="clock">
-                            </div>
-                            <div class="content">
-                                <div class="d-flex align-items-center gap-2">
-                                    <span class="fz-24 lato fw-400 gratext">
-                                        29
-                                    </span>
-                                    <span class="fz-24 lato fw-400 gratext">
-                                        :
-                                    </span>
-                                    <span class="fz-24 lato fw-400 gratext">
-                                        01
-                                    </span>
-                                </div>
-                                <div class="d-flex align-items-center gap-3">
-                                    <span class="fz-16 fw-400 dtext">
-                                        Min
-                                    </span>
-                                    <span class="fz-16 fw-400 dtext">
-                                        Sec
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="d-flex product__total pb__15 mb__15 align-items-center justify-content-between">
                         <span class="fz-18 fw-600 lato dtext d-block">
                             ადგილი
@@ -367,7 +283,7 @@
                         </div>
                     </div>
                     <div class="payment text-center mb__30">
-                        <button ng-click="changeActiveTab(webPages.PaymentDetails); registerTicket(ticketRegisterData);" class="cmn__btn" ng-disabled="registerTicketForm.$invalid">
+                        <button ng-click="changeActiveTab(webPages.PaymentDetails,registerTicketForm.$invalid); registerTicket(ticketRegisterData, registerTicketForm.$invalid);" class="cmn__btn">
                             <span>
                                ბილეთის რეგისტრაცია
                             </span>
@@ -396,9 +312,9 @@
                                         <li class="nav-item" role="presentation" ng-repeat="vagon in chosenTrainForBooking.vagons" ng-click="changeVagonToChoose(vagon)">
                                             <button class="nav-link justify-content-center" data-bs-toggle="tab"
                                                     data-bs-target="#class0" type="button" role="tab"
-                                                    aria-controls="class0" aria-selected="true">
+                                                    aria-controls="class0" aria-selected="true" ng-class="{'active': chosenVagon == vagon}">
                                                 <span>
-                                                    {{vagon.name}}
+                                                    კლასი: {{vagon.name}}
                                                 </span>
                                             </button>
                                         </li>
@@ -407,6 +323,9 @@
                             </div>
                             <div class="col-xxl-8 col-xl-8 col-lg-8" style="margin-top: 30px;">
                                 <div class="personal__infobody">
+                                    <h6 class="bread__title  VagonNumber" ng-class="{'active': chosenVagon == vagon}" ng-repeat="vagon in chosenTrainForBooking.vagons" style="color: black !important;">
+                                        ვაგონის ნომერი: {{vagon.name.startsWith("I კლასი") ? 1 : vagon.name.startsWith("II კლასი") ? 2 : 3}}
+                                    </h6>
                                     <div class="tab-content" id="myTabContent">
                                         <div class="tab-pane fade show active" id="class0" role="tabpanel">
                                             <div class="train">

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Geekster PC\Desktop\STEPPROJECTS\TrainTicketBooking\TrainticketBooking\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-07-04T06:29:42.6790153Z;True|2023-07-04T10:19:55.5392575+04:00;True|2023-07-04T10:17:02.7411609+04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnectionString">
+      <Value>Server=STEPPROJECT%3bDatabase=TrainticketBookingDB%3bUser ID=testrest%3bPassword=Mimino456%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="TrainticketBooking.Data.TrainticketBookingDbContext">
+      <Value>Server=STEPPROJECT%3bDatabase=TrainticketBookingDB%3bUser ID=testrest%3bPassword=Mimino456%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

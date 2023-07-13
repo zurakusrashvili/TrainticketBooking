@@ -4,43 +4,9 @@
     <div class="container">
         <div class="breadcumnd__wrapper">
             <h2 class="bread__title">
-                Train - Payment
+                გადახდის გვერდი
             </h2>
-            <ul class="breadcumnd__link">
-                <li>
-                    <a ng-click="changeActiveTab(webPages.Home)">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <i class="material-symbols-outlined">
-                        chevron_right
-                    </i>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">
-                        Booking
-                    </a>
-                </li>
-                <li>
-                    <i class="material-symbols-outlined">
-                        chevron_right
-                    </i>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">
-                        Train
-                    </a>
-                </li>
-                <li>
-                    <i class="material-symbols-outlined">
-                        chevron_right
-                    </i>
-                </li>
-                <li>
-                    Payment
-                </li>
-            </ul>
+          
         </div>
     </div>
     <!--Container-->
@@ -55,7 +21,6 @@
                     <div class="checkout__single-wrapper">
                         <div class="checkout__single checkout__single__bg">
                             
-                            <h4 class="mb__10">Payment Methods</h4>
                             <div class="transactionid d-flex align-items-center">
                                 <span class="tran fz-18 fw-500">
                                     სულ გადასახდელი: {{ticketPriceSum}}.00₾
@@ -68,25 +33,25 @@
 
                                     <div class="col-lg-12">
                                         <div class="input-single">
-                                            <label for="userCardNumber">Card number</label>
+                                            <label for="userCardNumber">ბარათის ნომერი*</label>
                                             <input type="number" name="number" id="userCardNumber" placeholder="2456 1665 5155 5151" required ng-model="creditCardInfo.number">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="input-single">
-                                            <label for="userCardDate">Expiry date</label>
+                                            <label for="userCardDate">მოქმედების ვადა*</label>
                                             <input type="text" id="userCardDate" name="date" placeholder="DD/MM/YY" required ng-model="creditCardInfo.expDate">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="input-single">
                                             <label for="userCardName">CVC / CVV</label>
-                                            <input type="text" name="cvv" id="userCardName" placeholder="3 digits" required ng-model="creditCardInfo.cvv">
+                                            <input type="text" name="cvvNumber" id="userCardName" placeholder="3 digits" required ng-model="creditCardInfo.cvvNumber">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="input-single">
-                                            <label for="userCardNamecard">Name on card</label>
+                                            <label for="userCardNamecard">ბარათის მფლობელი</label>
                                             <input type="text" name="namecard" id="userCardNamecard" placeholder="J. smith" required ng-model="creditCardInfo.nameOnCard">
                                         </div>
                                     </div>

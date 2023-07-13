@@ -60,18 +60,13 @@
                             <img src="assets/img/logo/favicon.png" alt="logo">
                         </a>
                     </div>
-                    <div class="menu__right__components d-flex align-items-center">
+                    <div class="menu__right__components d-flex align-items-center" ng-click="changeActiveTab(webPages.CheckTicket);">
                         <div class="sigup__grp d-lg-none">
                             <a  class="cmn__btn">
                                 <span>
                                     ბილეთის შემოწმება/დაბრუნება
                                 </span>
                             </a>
-                        </div>
-                        <div class="header-bar d-lg-none">
-                            <span></span>
-                            <span></span>
-                            <span></span>
                         </div>
                     </div>
 
@@ -89,19 +84,12 @@
             <div class="row">
                 <div class="col-xxl-7 col-xl-7 col-lg-8">
                     <div class="hotel__content">
-                        <h1 class="wow fadeInDown" data-wow-duration="2s">
-                            Discover traveling the world by train
-                        </h1>
+                        <h4 class="wow fadeInDown" data-wow-duration="2s">
+                            შეიძინეთ მატარებლის ბილეთები ონლაინ
+                        </h4>
                         <p class="wow fadeInUp max-636" data-wow-duration="2s">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration...
+                            გისურვებთ ბედნიერ მგზავრობას
                         </p>
-                        <div class="cmn__grp">
-                            <a ng-click="changeActiveTab(webPages.TrainList)" class="cmn__btn">
-                                <span>
-                                    Explore deals
-                                </span>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -117,7 +105,7 @@
         <div class="container">
             <div class="header-wrapper">
                 <div class="logo-menu">
-                    <a ng-click="changeActiveTab(webPages.Home)" class="logo">
+                    <a ng-click="changeActiveTab(webPages.Home); resetData()" class="logo">
                         <img src="~/assets/img/logo/logo.png" alt="logo">
                     </a>
                     <a ng-click="changeActiveTab(webPages.Home)" class="small__logo d-xl-none">
@@ -131,11 +119,6 @@
                                 ბილეთის შემოწმება/დაბრუნება
                             </span>
                         </a>
-                    </div>
-                    <div class="header-bar d-lg-none">
-                        <span></span>
-                        <span></span>
-                        <span></span>
                     </div>
                 </div>
          
@@ -196,145 +179,10 @@
     <footer class="footer__section bgsection pt-120">
         <div class="container">
             <div class="footer__wrapper">
-                <div class="footer__top pb-120">
-                    <div class="row gy-5 gx-5">
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1s">
-                            <div class="footer__widget">
-                                <div class="widget__head mb__20">
-                                    <a ng-click="changeActiveTab(webPages.Home)" class="footer__logo">
-                                        <img src="~/assets/img/logo/logo.png" alt="logo">
-                                    </a>
-                                </div>
-                                <p class="pratext mb__20 fz-18">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry...
-                                </p>
-                                <ul class="social d-flex gap-3">
-                                    <li>
-                                        <a href="javascript:void(0)" class="social__icon">
-                                            <img src="~/assets/img/svg/facebook.svg" alt="svg">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="social__icon">
-                                            <img src="~/assets/img/svg/instagram.svg" alt="svg">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="social__icon">
-                                            <img src="~/assets/img/svg/twitter.svg" alt="svg">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)" class="social__icon">
-                                            <img src="~/assets/img/svg/ball.svg" alt="svg">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1.5s">
-                            <div class="footer__widget">
-                                <div class="widget__head mb__20">
-                                    <h4 class="fz-24 pratext">
-                                        Quick Links
-                                    </h4>
-                                </div>
-                                <div class="widget__link">
-                                    <a ng-click="changeActiveTab(webPages.Home)" class="link fz-18 pratext">
-                                        Home
-                                    </a>
-                                    <a href="about.html" class="link fz-18 pratext">
-                                        About
-                                    </a>
-                                    <a ng-click="changeActiveTab(webPages.Home)" class="link fz-18 pratext">
-                                        Rechage & Bill Payment
-                                    </a>
-                                    <a href="booking-landing1.html" class="link fz-18 pratext">
-                                        Booking
-                                    </a>
-                                    <a href="contact.html" class="link fz-18 pratext">
-                                        Contact
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1.7s">
-                            <div class="footer__widget">
-                                <div class="widget__head mb__20">
-                                    <h4 class="fz-24 pratext">
-                                        Address
-                                    </h4>
-                                </div>
-                                <div class="widget__link">
-                                    <a href="javascript:void(0)" class="link fz-18 pratext">
-                                        <span class="d-block">
-                                            (480) 555-0103
-                                        </span>
-                                        <span>
-                                            (406) 555-0120
-                                        </span>
-                                    </a>
-                                    <a href="javascript:void(0)" class="link fz-18 pratext">
-                                        <span class="d-block">
-                                            <span class="__cf_email__" data-cfemail="9efafbfff0f0ffb0fdebeceaf7eddefbe6fff3eef2fbb0fdf1f3">[email&#160;protected]</span>
-                                        </span>
-                                        <span>
-                                            <span class="__cf_email__" data-cfemail="96f2f3f4e4f7b8fef9fae2d6f3eef7fbe6faf3b8f5f9fb">[email&#160;protected]</span>
-                                        </span>
-                                    </a>
-                                    <a href="javascript:void(0)" class="link fz-18 pratext">
-                                        285 Great North Road, Grey Lynn, Auckland 1021
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1.9s">
-                            <div class="footer__widget">
-                                <div class="widget__head mb__20">
-                                    <h4 class="fz-24 pratext">
-                                        Newsletter
-                                    </h4>
-                                </div>
-                                <div class="widget__link">
-                                    <p class="fz-18 pratext mb__30">
-                                        Subscribe our newsletter to get our latest update & news
-                                    </p>
-                                    <form action="javacript:void(0)" class="d-flex justify-content-between">
-                                        <input type="email" placeholder="Your mail address">
-                                        <button type="submit" class="cmn__btn">
-                                            <span>
-                                                <i class="material-symbols-outlined">
-                                                    rocket_launch
-                                                </i>
-                                            </span>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="footer__bottom d-flex">
                     <p class="fz-18 pratext">
-                        Copyright &copy;2023 <a ng-click="changeActiveTab(webPages.Home)" class="base">Rechargio.</a> All Rights Reserved
+                        &copy;2023 <a ng-click="changeActiveTab(webPages.Home)" class="base">Step Railway.</a> ყველა უფლება დაცულია.
                     </p>
-                    <ul class="footer__bottom__link">
-                        <li>
-                            <a href="help-support.html">
-                                Support
-                            </a>
-                        </li>
-                        <li>
-                            <a href="help-support.html">
-                                Terms of Use
-                            </a>
-                        </li>
-                        <li>
-                            <a href="help.html">
-                                Privacy Policy
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -382,7 +230,15 @@
     <script src="~/assets/js/html2canvas.min.js"></script>
     <script src="~/assets/js/main.js"></script>
 
+    <script>
+        var today = new Date().toISOString().slice(0, 10);
 
+        // Initialize the datepicker
+        $("#datepicker").datepicker({
+            format: "yyyy-mm-dd",
+            startDate: today,
+        });
+    </script>
 
 
 </body>

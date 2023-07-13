@@ -53,7 +53,17 @@ app.UseSwaggerUI(c =>
     c.DefaultModelsExpandDepth(-1);
 });
 
+//using (var scope = app.Services.CreateScope())
+//{
+//    var serviceProvider = scope.ServiceProvider;
+//    // Provide How Many Entities You Want To Seed
+//    // When Running Application Whith Uncommented Seeder It Will Seed Data.
 
+//    //DataSeeder.GenerateTrains(serviceProvider);
+//    //DataSeeder.GenerateDepartures(serviceProvider);
+
+//    DataSeeder.GenerateData(scope)
+//}
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
